@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on diesmo5</title>
+    <link>https://diesmo5.com/</link>
+    <description>Recent content in Home on diesmo5</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Oct 2018 16:43:47 -0700</lastBuildDate>
+    
+	<atom:link href="https://diesmo5.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
