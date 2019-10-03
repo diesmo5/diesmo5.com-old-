@@ -1,3 +1,6 @@
 baseURL = "http://diesmo5.com/"
 languageCode = "en-us"
 title = "diesmo5"
+
+enableRobotsTXT = true
+canonifyURLs = true
