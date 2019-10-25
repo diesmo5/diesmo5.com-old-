@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ partial "navbar" . }}
+
+<div class="container-fluid bg- py-3">
+  <div class="container">
+    <div class="row px-5">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+        <h5 class="text-uppercase ">{{ .Title }}</h5>
+        <h6 class="text-small">{{ .Params.Code }}</h6>
+        <img src="{{ .Params.Image }}" alt="" class="h-auto" width="75%" />
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+        <h5 class="">{{ .Params.Price }}</h5>
+        <h6 class="">tax not included</h6>
+        <a
+          href="https://checkout.square.site/buy/O6MBXQOIYQADKEHZBOYJF6H3"
+          class="btn btn-lg btn-primary"
+          ><h6 class="my-auto">CHECKOUT</h6></a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
