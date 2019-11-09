@@ -5,42 +5,23 @@
         <h6 class="">What's new</h6>
         <div class="box-body">
           <ul class="list-unstyled">
+            {{ range $.Site.Data.footer.new}}
             <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Sudocore</a>
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">EduX</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">MasterClass</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">C How to Program</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Fundamentals of Logic Design</a>
-            </li>
+            {{end}}
           </ul>
         </div>
       </div>
       <div class="box p-3 col-lg-2 col-md-4 col-12">
-        <h6 class="">diesmo5 Store</h6>
+        <h6 class="">Products & Services</h6>
         <div class="box-body">
           <ul class="list-unstyled">
+            {{range $.Site.Data.footer.store}}
             <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Account profile</a>
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Download Center</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Support</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Returns</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Order Tracking</a>
+            {{end}}
             </li>
           </ul>
         </div>
@@ -49,28 +30,23 @@
         <h6 class="">Education</h6>
         <div class="box-body">
           <ul class="list-unstyled">
+            {{range $.Site.Data.footer.education}}
             <li class="list-unstyled">
-              <a href="" class="text-small text-dark">diesmo5 in education</a>
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Software for students</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Software for schools</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Deals for students & parents</a>
-            </li>
+            {{end}}
           </ul>
         </div>
       </div>
       <div class="box p-3 col-lg-2 col-md-4 col-12">
-        <h6 class="">Enterprise</h6>
+        <h6 class="">Foundation</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            <!-- <li class="list-unstyled"><a href="" class="text-small text-dark">EduX</a></li>
-                        <li class="list-unstyled"><a href="" class="text-small text-dark">EduX</a></li>
-                        <li class="list-unstyled"><a href="" class="text-small text-dark">EduX</a></li> -->
+            {{range $.Site.Data.footer.foundation}}
+            <li class="list-unstyled">
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+            </li>
+            {{end}}
           </ul>
         </div>
       </div>
@@ -78,12 +54,11 @@
         <h6 class="">Developer</h6>
         <div class="box-body">
           <ul class="list-unstyled">
+            {{range $.Site.Data.footer.developer}}
             <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Polymer</a>
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Hack Iloilo</a>
-            </li>
+            {{end}}
           </ul>
         </div>
       </div>
@@ -91,38 +66,19 @@
         <h6 class="">Company</h6>
         <div class="box-body">
           <ul class="list-unstyled">
+            {{range $.Site.Data.footer.company}}
             <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Careers</a>
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">About diesmo5</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Company news</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Privacy at diesmo5</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Investors</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Diversity and inclusion</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Accessibility</a>
-            </li>
-            <li class="list-unstyled">
-              <a href="" class="text-small text-dark">Security</a>
-            </li>
+            {{end}}
           </ul>
         </div>
       </div>
     </div>
     <div class="row justify-content-end pr-2">
-      <a href="" class="text-small text-dark px-1">Sitemap</a>
-      <a href="" class="text-small text-dark px-1">Contact diesmo5</a>
-      <a href="" class="text-small text-dark px-1">Terms of Use</a>
+      {{range $.Site.Data.footer.essential}}
+      <a href="{{.url}}" class="text-small text-dark px-1">{{.title}}</a>
+      {{end}}
       <p href="" class="text-small text-dark px-1">&copy; diesmo5 2019</p>
     </div>
   </div>

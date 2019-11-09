@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "navbar" . }}
+
+<div class="container pt-2 px-5 pb-5">
+    <h1 class="font-weight-bold text-dark">{{.Title}}</h1>
+    {{.Content}}
+</div>
+
+{{ end }}

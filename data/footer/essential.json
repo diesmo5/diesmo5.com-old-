@@ -1,0 +1,22 @@
+{
+    "Sitemap": {
+        "title": "Sitemap",
+        "url": "/sitemap.xml/"
+    },
+    "Contact": {
+        "title": "Contact",
+        "url": "/contact/"
+    },
+    "Terms & Conditions": {
+        "title": "Terms & Conditions",
+        "url": "/policy/terms-conditions/"
+    },
+    "Privacy Policy": {
+        "title": "Privacy Policy",
+        "url": "/policy/privacy-policy/"
+    },
+    "Return Policy": {
+        "title": "Return Policy",
+        "url": "/policy/return-policy/"
+    }
+}

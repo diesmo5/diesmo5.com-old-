@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ partial "navbar" . }}
+
+<div class="container p-5">
+  <h1 class="font-weight-bold text-dark pb-2">Manifesto</h1>
+  <div class="card p-5">
+    <p class="card-text">
+      {{.Content}}
+    </p>
+  </div>
+</div>
+
+<div class="container p-5">
+  <h1 class="font-weight-bold text-dark pb-2">Programs</h1>
+  <div class="row px-3">
+    {{ range.Pages }}
+    <div class="card col-lf-3 col-md-4 col-12" onclick="window.location = {{.URL}}">
+      <img src="{{.Params.img}}" alt="" class="card-img" />
+      <div class="card-body">
+        <p class="card-title">{{.Title}}</p>
+        <p class="card-text">{{.Description}}</p>
+        <a href="{{.URL}}" class="card-text"> Learn More ></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="container p-5">
+  <h1 class="font-weight-bold text-dark pb-2">Partners</h1>
+  <div class="row">
+    {{ range $.Site.Data.partners }}
+    <img
+      src="{{.img}}"
+      alt="{{.alt}}"
+      onclick="window.open({{.url}});"
+      class="col-lg-3 col-md-4 col-6"
+    />
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

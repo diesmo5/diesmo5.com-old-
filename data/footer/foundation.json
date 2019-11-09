@@ -1,0 +1,22 @@
+{
+    "0Overview": {
+        "title": "Overview",
+        "url": "/foundation/"
+    },
+    "1Hackathons": {
+        "title": "Hackathons",
+        "url": "/hackathons/"
+    },
+    "2Speaking Engagements": {
+        "title": "Speaking Engagements",
+        "url": "/hackathons/"
+    },
+    "3Workshops": {
+        "title": "Workshops",
+        "url": "/hackathons/"
+    },
+    "4Partners": {
+        "title": "Partners",
+        "url": "/partners/"
+    }
+}
