@@ -1,15 +1,15 @@
 {
-    "Account Profile": {
-        "title": "Account Profile",
-        "url": "/profile/"
+    "Products": {
+        "title": "Products",
+        "url": "/products/"
     },
     "Services": {
         "title": "Services",
-        "url": ""
+        "url": "/services/"
     },
-    "Products": {
-        "title": "Products",
-        "url": ""
+    "Pro Group": {
+        "title": "Pro Group",
+        "url": "/pro-group/"
     },
     "Support": {
         "title": "Support",

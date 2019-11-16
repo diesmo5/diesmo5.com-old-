@@ -1,0 +1,28 @@
+{
+    "1": {
+        "title": "Arduino",
+        "description": "Need a website? We'll build one specific to your needs to increase sales, engagements, or aesthetic.",
+        "price": "87.90",
+        "img": "/img/store/arduino-starter-kit.jpg",
+        "alt": "",
+        "url": "https://checkout.square.site/buy/MWLTW2Z5ICU7DQ3UIL7GYZ55"
+    },
+    "2": {
+        "title": "Identity",
+        "description": "Are you trying to build a brand? Our artists will design a brand that speaks to your customers.",
+        "price": "",
+        "img": "",
+        "alt": "",
+        "url": "https://checkout.square.site/buy/MWLTW2Z5ICU7DQ3UIL7GYZ55"
+
+    },
+    "3": {
+        "title": "Learn",
+        "description": "Want to connect with experts? We provide consultation services for web, design, business, tech, etc.",
+        "price": "",
+        "img": "",
+        "alt": "",
+        "url": "https://checkout.square.site/buy/MWLTW2Z5ICU7DQ3UIL7GYZ55"
+
+    }
+}

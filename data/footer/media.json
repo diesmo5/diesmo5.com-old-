@@ -1,0 +1,26 @@
+{
+    "Youtube": {
+        "title": "Youtube",
+        "url": ""
+    },
+    "Instagram": {
+        "title": "Instagram",
+        "url": ""
+    },
+    "Newsletter": {
+        "title": "Newsletter",
+        "url": "/newsletter/"
+    },
+    "Blog": {
+        "title": "Blog",
+        "url": "/blog/"
+    },
+    "Podcast": {
+        "title": "Podcast",
+        "url": ""
+    },
+    "Facebook": {
+        "title": "Facebook",
+        "url": ""
+    }
+}

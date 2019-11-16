@@ -1,7 +1,27 @@
 {{ define "main" }}
-{{ partial "navbar" . }}
-<!--  -->
+<!-- {{ partial "navbar" . }} -->
+
 <div class="container">
+  <div class="text-center py-5">
+    <img src="/img/logo/icon.png" class="w-50" alt="" />
+    <h1 class="">diesmo<i>5</i></h1>
+  </div>
+  <h1 class="text-center">Our Website is being Rennovated</h1>
+
+  {{ range $.Site.Data.temp }}
+  <div class="text-center py-5">
+    <h3 class="font-weight-bold">{{.title}}</h3>
+    <h5 class="">
+      {{.description}}
+    </h5>
+    <p class="">
+      {{.line}}
+    </p>
+  </div>
+  {{ end }}
+</div>
+
+<!-- <div class="container">
   <div class="row pb-3">
     <div
       id="carouselExampleIndicators"
@@ -66,9 +86,8 @@
       </a>
     </div>
   </div>
-  <!--  -->
+    
 
-  <!--  -->
   <div class="row py-5">
     <div class="card-deck">
       <div class="card border-0">
@@ -161,17 +180,13 @@
       </div>
     </div>
   </div>
-  <!--  -->
 
-  <!--  -->
   <div class="row bg-dark p-2">
     <a href="" class="text-decoration-none">
       <img src="/img/youtube-promo2.png" alt="" class="w-100" />
     </a>
   </div>
-  <!--  -->
 
-  <!--  -->
   <div class="row">
     <h4 class="font-weight-bold"></h4>
     <div class="card-deck">
@@ -230,8 +245,7 @@
     </div>
   </div>
 
-  <!--  -->
-  <!--  -->
+
   <div
     id="carouselExampleIndicators"
     class="carousel slide"
@@ -276,6 +290,5 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
-<!--  -->
+</div> -->
 {{ end }}

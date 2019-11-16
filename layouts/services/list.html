@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ partial "navbar" . }}
+
+<div class="container py-5">
+  <h3 class="font-weight-bold text-center text-dark">
+    {{.Title}}
+  </h3>
+  <p class="">{{.Content}}</p>
+
+  <div class="text-center py-5">
+      Video
+  </div>
+
+  <div class="row">
+    {{range $.Site.Data.services}}
+    <div class="card col-lg-3 col-md-4 col-12">
+      <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
+      <div class="card-body">
+        <p class="card-title font-weight-bold text-dark text-center ">{{.title}}</p>
+        <p class="card-title">{{.description}}</p>
+        <a
+          target="_top"
+          class="btn btn-primary justify-content-center"
+          href="https://square.site/book/Z2N4T0WQDXAG7/diesmo5-camarillo-ca"
+          rel="nofollow"
+          >Book an Appointment</a
+        >
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="container">
+    
+</div>
+
+
+{{ end }}
