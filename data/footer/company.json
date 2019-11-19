@@ -11,13 +11,20 @@
         "title": "Press",
         "url": "/press/"
     },
-    "Diversity and Inclusion": {
-        "title": "Diversity and Inclusion",
-        "url": "/diversity-inclusion/"
+    "Contact": {
+        "title": "Contact",
+        "url": "/contact/"
     },
- 
-    "Security": {
-        "title": "Security",
-        "url": "/security/"
+    "Privacy Policy": {
+        "title": "Privacy Policy",
+        "url": "/policy/privacy-policy/"
+    },
+    "Return Policy": {
+        "title": "Return Policy",
+        "url": "/policy/return-policy/"
+    },
+    "Terms & Conditions": {
+        "title": "Terms & Conditions",
+        "url": "/policy/terms-conditions/"
     }
 }

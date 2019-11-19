@@ -1,0 +1,18 @@
+{
+    "Hackathons": {
+        "title": "Hackathons",
+        "url": "/hackathons/"
+    },
+    "Speaking Engagements": {
+        "title": "Speaking Engagements",
+        "url": "/speaking-engagements/"
+    },
+    "Workshops": {
+        "title": "Workshops",
+        "url": "/workshops/"
+    },
+    "zPartners": {
+        "title": "Partners",
+        "url": "/partners/"
+    }
+}

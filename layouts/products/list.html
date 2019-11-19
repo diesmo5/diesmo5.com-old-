@@ -1,18 +1,75 @@
-{{ define "main" }}
-{{ partial "navbar" . }}
+{{ define "main" }} {{ partial "navbar" . }}
+
+<div class="container text-center pt-5">
+  <h1 class="text-yankees font-weight-bold">Products</h1>
+  <h2 class="font-weight-light">It's not perfect, but it's close enough</h2>
+</div>
+
+<!-- Button trigger modal -->
 
 <div class="container py-5">
   <div class="row">
-    {{range $.Site.Data.products}}
-    <div class="card col-lg-4 col-md-6 col-12 py-1">
+    {{ range $.Site.Data.products}}
+    <div class="card col-lg-4 col-md-6 col-12 p-4">
+      <a href="" data-toggle="modal" data-target="#{{.title}}" class="text-decoration-none text-yankees">
       <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
       <div class="card-body">
-        <a href="{{.url}}" class="text-decoration-none">{{.title}}</a> <br>
-        <a href="{{.url}}" class="text-decoration-none">${{.price}}</a>
+        <h6 class="card-title font-weight-bold">{{.title}}</h6>
+        <h6 class="card-text text-small">{{.description}}</small>
+          <h6 class="card-text pt-1 pb-3">${{.price}}</h6>
+        </a>
+          <div class="text-center">
+          <button
+            type="button"
+            class="btn btn-rose rounded-0"
+            data-toggle="modal"
+            data-target="#{{.title}}"
+          >
+            View {{.title}}
+          </button>
+        </div>
       </div>
     </div>
-    {{ end }}
+    {{end}}
   </div>
 </div>
+<!-- Modal -->
 
-{{ end }}
+
+
+
+{{ range $.Site.Data.products}}
+<div
+  class="modal fade"
+  id="{{.title}}"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">{{.title}}</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="{{.img}}" alt="{{.alt}}" class="w-100" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-yankees rounded-0" data-dismiss="modal">
+          Close
+        </button>
+        <a type="button" class="btn btn-rose rounded-0" href="{{.purchase}}">Purchase</a>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}} {{ end }}

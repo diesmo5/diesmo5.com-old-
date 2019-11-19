@@ -1,5 +1,4 @@
-{{ define "main" }}
-{{ partial "navbar" . }}
+{{ define "main" }} {{ partial "navbar" . }}
 
 <div class="container py-5">
   <h3 class="font-weight-bold text-center text-dark">
@@ -8,19 +7,21 @@
   <p class="">{{.Content}}</p>
 
   <div class="text-center py-5">
-      Video
+    Video
   </div>
 
   <div class="row">
     {{range $.Site.Data.services}}
-    <div class="card col-lg-3 col-md-4 col-12">
+    <div class="card border-0 col-lg-3 col-md-4 col-12">
       <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
-      <div class="card-body">
-        <p class="card-title font-weight-bold text-dark text-center ">{{.title}}</p>
+      <div class="card-body text-center">
+        <p class="card-title font-weight-bold text-dark text-center ">
+          {{.title}}
+        </p>
         <p class="card-title">{{.description}}</p>
         <a
           target="_top"
-          class="btn btn-primary justify-content-center"
+          class="btn btn-yankees rounded-0 justify-content-center"
           href="https://square.site/book/Z2N4T0WQDXAG7/diesmo5-camarillo-ca"
           rel="nofollow"
           >Book an Appointment</a
@@ -28,12 +29,27 @@
       </div>
     </div>
     {{ end }}
+    <h6 class="font-weight-light text-rose text-small">
+      *First Consultations are Free
+    </h6>
+  </div>
+  <div class="text-center">
+    <a href="/work/" class="font-weight-light text-yankees text-small"
+      >View Work</a
+    >
   </div>
 </div>
 
-<div class="container">
-    
-</div>
-
+<div class="container-fluid text-center py-5">
+    <div class="container py-5">
+      <h5 class="font-weight-light">Ready to Talk?</h5>
+      <a
+        href="/contact/"
+        class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
+        >Start a Project</a
+      >
+    </div>
+  </div>
+  
 
 {{ end }}

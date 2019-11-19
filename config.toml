@@ -1,6 +1,6 @@
-baseURL = "http://diesmo5.com/"
+baseURL = "https://diesmo5.com/"
 languageCode = "en-us"
-title = "diesmo5"
+title = "DIESMO 5"
 
 enableRobotsTXT = true
 canonifyURLs = true

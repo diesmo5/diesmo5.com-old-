@@ -1,3 +1,141 @@
 .text-small {
   font-size: 11px;
 }
+.rounded-0{
+  border-radius: 0px;
+}
+
+.bg-yankees {
+  background-color: #1a1c3a;
+}
+.bg-indigo {
+  background-color: #47008e;
+}
+.bg-grape {
+  background-color: #771eb2;
+}
+.bg-bonbon {
+  background-color: #f43fb2;
+}
+.bg-rose {
+  background-color: #f40c84;
+}
+
+.btn-yankees {
+  background-color: #1a1c3a;
+  color: #ffffff;
+}
+.btn-indigo {
+  background-color: #47008e;
+  color: #ffffff;
+}
+.btn-grape {
+  background-color: #771eb2;
+  color: #ffffff;
+}
+.btn-bonbon {
+  background-color: #f43fb2;
+  color: #ffffff;
+}
+.btn-rose {
+  background-color: #f40c84;
+  color: #ffffff;
+}
+
+.btn-yankees:hover {
+  background-color: #00022e;
+  color: #ffffff;
+}
+.btn-indigo:hover {
+  background-color: #390072;
+  color: #ffffff;
+}
+.btn-grape:hover {
+  background-color: #571583;
+  color: #ffffff;
+}
+.btn-bonbon:hover {
+  background-color: #c42489;
+  color: #ffffff;
+}
+.btn-rose:hover {
+  background-color: #b10c61;
+  color: #ffffff;
+}
+
+.text-yankees {
+  color: #1a1c3a;
+}
+.text-yankees:hover {
+  color: #1a1c3a;
+}
+.text-indigo {
+  color: #47008e;
+}
+.text-grape {
+  color: #771eb2;
+}
+.text-bonbon {
+  color: #f43fb2;
+}
+.text-rose {
+  color: #f40c84;
+}
+
+.hover {
+  background-color: #ffffff;
+}
+.hover-outline {
+  color: #ffffff;
+}
+
+.hover-yankees:hover {
+  background-color: #1a1c3a;
+  color:#ffffff;
+  transition-duration: 0.8s;
+}
+.hover-indigo:hover {
+  background-color: #47008e;
+  color:#ffffff;
+  transition-duration: 0.8s;
+}
+.hover-grape:hover {
+  background-color: #771eb2;
+  color:#ffffff;
+  transition-duration: 0.8s;
+}
+.hover-bonbon:hover {
+  background-color: #f43fb2;
+  color:#ffffff;
+  transition-duration: 0.8s;
+}
+.hover-rose:hover {
+  background-color: #f40c84;
+  color:#ffffff;
+  transition-duration: 0.8s;
+}
+.hover-outline-yankees:hover {
+  background-color: #ffffff;
+  color:#1a1c3a;
+  transition-duration: 0.8s;
+}
+.hover-outline-indigo:hover {
+  background-color: #ffffff;
+  color:#47008e;
+  transition-duration: 0.8s;
+}
+.hover-outline-grape:hover {
+  background-color: #ffffff;
+  color:#771eb2;
+  transition-duration: 0.8s;
+}
+.hover-outline-bonbon:hover {
+  background-color: #ffffff;
+  color:#f43fb2;
+  transition-duration: 0.8s;
+}
+.hover-outline-rose:hover {
+  background-color: #ffffff;
+  color:#f40c84;
+  transition-duration: 0.8s;
+}

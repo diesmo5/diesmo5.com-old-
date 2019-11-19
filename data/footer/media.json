@@ -3,10 +3,6 @@
         "title": "Youtube",
         "url": ""
     },
-    "Instagram": {
-        "title": "Instagram",
-        "url": ""
-    },
     "Newsletter": {
         "title": "Newsletter",
         "url": "/newsletter/"
@@ -17,10 +13,6 @@
     },
     "Podcast": {
         "title": "Podcast",
-        "url": ""
-    },
-    "Facebook": {
-        "title": "Facebook",
-        "url": ""
+        "url": "/podcast/"
     }
 }

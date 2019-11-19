@@ -1,0 +1,20 @@
+{
+    "HACK ILOILO 2019": {
+        "name": "Bootstrap 4",
+        "tagline": "HACK ILOILO",
+        "date": "08/21",
+        "url": "/contact/"
+    },
+    "VCOE 2019": {
+        "name": "Full-Stack",
+        "tagline": "VCOE",
+        "date": "08/21",
+        "url": "/contact/"
+    },
+    "ISCOF 2019": {
+        "name": "Alexa Skills",
+        "tagline": "ISCOF",
+        "date": "01/12",
+        "url": "/contact/"
+    }
+}

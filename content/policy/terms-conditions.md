@@ -4,24 +4,24 @@ date: 2018-10-03T16:43:47-07:00
 draft: false
 ---
 
-Thank you for your participation in diesmo5. If you are not entirely satisfied with your purchase, we are here to help. 
+Thank you for your participation in DIESMO 5. If you are not entirely satisfied with your purchase, we are here to help. 
 
-<h4 class="font-weight-bold text-dark pt-3">Welcome to DIESMO5</h4>
-These terms and conditions outline the rules and regulations for the use of DIESMO5's Website.
+<h4 class="font-weight-bold text-dark pt-3">Welcome to DIESMO 5</h4>
+These terms and conditions outline the rules and regulations for the use of DIESMO 5's Website.
 
-DIESMO5 is located at:
+DIESMO 5 is located at:
 
 <address>2392 Placita San Leandro Camarillo <br />93010 - CA , United States<br/>8054447938</address>
 
-By accessing this website we assume you accept these terms and conditions in full. Do not continue to use DIESMO5's website if you do not accept all of the terms and conditions stated on this page.
+By accessing this website we assume you accept these terms and conditions in full. Do not continue to use DIESMO 5's website if you do not accept all of the terms and conditions stated on this page.
 
 The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: "Client", "You" and "Your" refers to you, the person accessing this website and accepting the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services/products, in accordance with and subject to, prevailing law of United States. Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.
 
 <h4 class="font-weight-bold text-dark pt-3">Cookies</h4>
-We employ the use of cookies. By using DIESMO5's website you consent to the use of cookies in accordance with DIESMO5's privacy policy.Most of the modern day interactive web sites use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate / advertising partners may also use cookies.
+We employ the use of cookies. By using DIESMO 5's website you consent to the use of cookies in accordance with DIESMO 5's privacy policy.Most of the modern day interactive web sites use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate / advertising partners may also use cookies.
 
 <h4 class="font-weight-bold text-dark pt-3">License</h4>
-Unless otherwise stated, DIESMO5 and/or it's licensors own the intellectual property rights for all material on DIESMO5. All intellectual property rights are reserved. You may view and/or print pages from https://diesmo5.com for your own personal use subject to restrictions set in these terms and conditions.
+Unless otherwise stated, DIESMO 5 and/or it's licensors own the intellectual property rights for all material on DIESMO 5. All intellectual property rights are reserved. You may view and/or print pages from https://diesmo5.com for your own personal use subject to restrictions set in these terms and conditions.
 	
 You must not:
 <ol>
@@ -29,14 +29,14 @@ You must not:
     <li>Sell, rent or sub-license material from https://diesmo5.com</li>
     <li>Reproduce, duplicate or copy material from https://diesmo5.com</li>
 </ol>
-Redistribute content from DIESMO5 (unless content is specifically made for redistribution).
+Redistribute content from DIESMO 5 (unless content is specifically made for redistribution).
 
 <h4 class="font-weight-bold text-dark pt-3">User Comments</h4>
 <ol>
     <li>This Agreement shall begin on the date hereof.</li>
-    <li>Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data ('Comments') in areas of the website. DIESMO5 does not screen, edit, publish or review Comments prior to their appearance on the website and Comments do not reflect the views or opinions ofDIESMO5, its agents or affiliates. Comments reflect the view and opinion of the person who posts such view or opinion. To the extent permitted by applicable laws DIESMO5shall not be responsible or liable for the Comments or for any loss cost, liability, damages or expenses caused and or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this
+    <li>Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data ('Comments') in areas of the website. DIESMO 5 does not screen, edit, publish or review Comments prior to their appearance on the website and Comments do not reflect the views or opinions ofDIESMO 5, its agents or affiliates. Comments reflect the view and opinion of the person who posts such view or opinion. To the extent permitted by applicable laws DIESMO 5shall not be responsible or liable for the Comments or for any loss cost, liability, damages or expenses caused and or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this
     website.</li>
-    <li>DIESMO5reserves the right to monitor all Comments and to remove any Comments which it considers in its absolute discretion to be inappropriate, offensive or otherwise in breach of these Terms and Conditions.</li>
+    <li>DIESMO 5reserves the right to monitor all Comments and to remove any Comments which it considers in its absolute discretion to be inappropriate, offensive or otherwise in breach of these Terms and Conditions.</li>
     <li>You warrant and represent that:
         <ol>
             <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
@@ -45,7 +45,7 @@ Redistribute content from DIESMO5 (unless content is specifically made for redis
             <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
         </ol>
     </li>
-    <li>You hereby grant to <strong>DIESMO5</strong> a non-exclusive royalty-free license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</li>
+    <li>You hereby grant to <strong>DIESMO 5</strong> a non-exclusive royalty-free license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</li>
 </ol>
 
 <h4 class="font-weight-bold text-dark pt-3">Hyperlinking to our Content</h4>
@@ -90,7 +90,7 @@ Approved organizations may hyperlink to our Web site as follows:
     <li>By use of any other description of our Web site or material being linked to that makes sense within the context and format of content on the linking party's site.</li>
 </ol>
 
-No use of DIESMO5's logo or other artwork will be allowed for linking absent a trademark license agreement.
+No use of DIESMO 5's logo or other artwork will be allowed for linking absent a trademark license agreement.
 
 <h4 class="font-weight-bold text-dark pt-3">Iframes</h4>
 Without prior approval and express written permission, you may not create frames around our Web pages or use other techniques that alter in any way the visual presentation or appearance of our Web site.

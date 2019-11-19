@@ -4,7 +4,7 @@ date: 2018-10-03T16:43:47-07:00
 draft: false
 ---
 
-Thank you for your participation in diesmo5. If you are not entirely satisfied with your purchase, we are here to help. 
+Thank you for your participation in DIESMO 5. If you are not entirely satisfied with your purchase, we are here to help. 
 
 <h4 class="font-weight-bold text-dark pt-3">Returns</h4>
 You have 30 days to return an item from the date you received it. To be eligible for a return, your item must be unused and in the same condition that you received it. Your item must be in the original packaging. Your item needs to have the receipt or proof of purchase. Services are not eligible for returns.

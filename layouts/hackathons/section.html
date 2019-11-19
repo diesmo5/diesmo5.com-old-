@@ -1,0 +1,50 @@
+{{define "main"}} {{ partial "navbar" . }}
+
+<div class="">
+  <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="w-100" />
+</div>
+
+<div class="container py-5">
+  <div class="row">
+    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+      <p class="font-weight-bold">Resources</p>
+      <i class="fas fa-2x fa-laptop-code text-rose pb-3"></i>
+      <p class="font-weight-light">Free software & hardware.</p>
+    </div>
+    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+      <p class="font-weight-bold">Education</p>
+      <i class="fas fa-2x fa-graduation-cap text-rose pb-3"></i>
+      <p class="font-weight-light">We put students first.</p>
+    </div>
+    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+      <p class="font-weight-bold">Funding</p>
+      <i class="fas fa-2x fa-search-dollar text-rose pb-3"></i>
+      <p class="font-weight-light">Looking for money?</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-yankees py-3">
+  <div class="container">
+    <h4 class="font-weight-light text-white text-center pt-4">Hackathons</h4>
+    <div class="row">
+      {{ range $.Site.Data.hackathons }}
+      <a
+        href="{{.url}}"
+        target="_blank"
+        class="text-decoration-none hover-outline hover-outline-yankees col-lg-4 col-md-4 col-12"
+      >
+        <div class="text-center p-5">
+          <h6 class="font-weight-light">{{.tagline}}</h6>
+          <h1 class="font-weight-light">{{.date}}</h1>
+          <h5 class="font-weight-light">{{.name}}</h5>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="container"></div>
+
+{{ partial "contact" . }} {{end}}
