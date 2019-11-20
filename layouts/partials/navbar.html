@@ -1,42 +1,132 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="/">
-    <img src="/img/logo/diesmo5-logo.png" width="110px" alt="diesmo5-logo" />
-  </a>
-  <button
-    class="navbar-toggler border-0"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="/">Home</a>
-      <a class="nav-item nav-link" href="/masterclass" target="_blank">Masterclass</a>
-      <a class="nav-item nav-link" href="/memberships">Memberships</a>
-      <a class="nav-item nav-link" href="/store">Store</a>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Connect
-        </a>
-        <div class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/community">Community</a>
-          <a class="dropdown-item" href="/collaborate">Collaborate</a>
-          <a class="dropdown-item" href="/donate">Donate</a>
-        </div>
-      </li>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">
+      <img src="/img/logo/diesmo5-logo.png" width="110px" alt="diesmo5-logo" />
+    </a>
+    <button
+      class="navbar-toggler border-0"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavAltMarkup"
+    >
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link" href="/memberships"></a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Products & Services
+          </a>
+          <div
+            class="dropdown-menu bg-transparent border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.footer.store}}
+            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Work
+          </a>
+          <div
+            class="dropdown-menu bg-transparent border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.footer.work}}
+            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Collaborate
+          </a>
+          <div
+            class="dropdown-menu bg-transparent border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.footer.collaborate}}
+            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Media
+          </a>
+          <div
+            class="dropdown-menu bg-transparent border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.footer.media}}
+            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Company
+          </a>
+          <div
+            class="dropdown-menu bg-transparent border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.footer.company}}
+            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            {{end}}
+          </div>
+        </li>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

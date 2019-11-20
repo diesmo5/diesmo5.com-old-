@@ -1,23 +1,27 @@
-{{define "main"}} 
-{{ partial "navbar" . }}
-
+{{define "main"}} {{ partial "navbar" . }}
 <div class="">
   <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="w-100" />
 </div>
 
 <div class="container py-5">
   <div class="row">
-    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+    <div
+      class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0"
+    >
       <p class="font-weight-bold">Resources</p>
       <i class="fas fa-2x fa-laptop-code text-rose pb-3"></i>
       <p class="font-weight-light">Free software & hardware.</p>
     </div>
-    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+    <div
+      class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0"
+    >
       <p class="font-weight-bold">Education</p>
       <i class="fas fa-2x fa-graduation-cap text-rose pb-3"></i>
       <p class="font-weight-light">We put students first.</p>
     </div>
-    <div class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0">
+    <div
+      class="card text-yankees text-center col-lg-4 col-md-4 col-12 border-0"
+    >
       <p class="font-weight-bold">Funding</p>
       <i class="fas fa-2x fa-search-dollar text-rose pb-3"></i>
       <p class="font-weight-light">Looking for money?</p>
@@ -46,7 +50,4 @@
   </div>
 </div>
 
-<div class="container"></div>
-
-{{ partial "contact" . }} 
-{{end}}
+{{partial "partners" . }} {{ partial "contact" . }} {{end}}
