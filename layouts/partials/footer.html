@@ -5,7 +5,7 @@
         <h6 class="">What's new</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{ range $.Site.Data.footer.new}}
+            {{ range $.Site.Data.nav.new}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -17,7 +17,7 @@
         <h6 class="">Products & Services</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{range $.Site.Data.footer.store}}
+            {{range $.Site.Data.nav.store}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -30,7 +30,7 @@
         <h6 class="">Work</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{range $.Site.Data.footer.work}}
+            {{range $.Site.Data.nav.work}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -42,7 +42,7 @@
         <h6 class="">Collaborate</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{range $.Site.Data.footer.collaborate}}
+            {{range $.Site.Data.nav.collaborate}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -54,7 +54,7 @@
         <h6 class="">Media</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{range $.Site.Data.footer.media}}
+            {{range $.Site.Data.nav.media}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -66,7 +66,7 @@
         <h6 class="">Company</h6>
         <div class="box-body">
           <ul class="list-unstyled">
-            {{range $.Site.Data.footer.company}}
+            {{range $.Site.Data.nav.company}}
             <li class="list-unstyled">
               <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
             </li>
@@ -76,7 +76,7 @@
       </div>
     </div>
     <div class="row justify-content-end pr-2">
-      {{range $.Site.Data.footer.essential}}
+      {{range $.Site.Data.nav.essential}}
       <a href="{{.url}}" class="text-small text-dark px-1">{{.title}}</a>
       {{end}}
       <p href="" class="text-small text-dark px-1">&copy; diesmo5 2019</p>

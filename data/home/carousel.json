@@ -1,0 +1,20 @@
+{
+    "1": {
+        "img": "/img/c-how-to-program-course-promo.png",
+        "alt": "C How To Program Course Promo",
+        "url": "",
+        "toggle": "active"
+    },
+    "2": {
+        "img": "/img/youtube-promo.png",
+        "alt": "SudoCore Web Framework Promo",
+        "url": "",
+        "toggle": ""
+    },
+    "3": {
+        "img": "/img/sudocore-promo.png",
+        "alt": "SudoCore Web Framework Promo",
+        "url": "",
+        "toggle": ""
+    }
+}

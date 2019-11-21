@@ -9,7 +9,7 @@
 
 <div class="container py-5">
   <div class="row">
-    {{ range $.Site.Data.products}}
+    {{ range $.Site.Data.store.products}}
     <div class="card col-lg-4 col-md-6 col-12 p-4">
       <a href="" data-toggle="modal" data-target="#{{.title}}" class="text-decoration-none text-yankees">
       <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
@@ -38,7 +38,7 @@
 
 
 
-{{ range $.Site.Data.products}}
+{{ range $.Site.Data.store.products}}
 <div
   class="modal fade"
   id="{{.title}}"

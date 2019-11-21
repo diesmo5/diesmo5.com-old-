@@ -20,7 +20,6 @@
     >
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="/">Home</a>
-        <a class="nav-item nav-link" href="/memberships"></a>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -34,10 +33,10 @@
             Products & Services
           </a>
           <div
-            class="dropdown-menu bg-transparent border-0"
+            class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.footer.store}}
+            {{ range $.Site.Data.nav.store}}
             <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
             {{end}}
           </div>
@@ -55,10 +54,10 @@
             Work
           </a>
           <div
-            class="dropdown-menu bg-transparent border-0"
+            class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.footer.work}}
+            {{ range $.Site.Data.nav.work}}
             <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
             {{end}}
           </div>
@@ -76,10 +75,10 @@
             Collaborate
           </a>
           <div
-            class="dropdown-menu bg-transparent border-0"
+            class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.footer.collaborate}}
+            {{ range $.Site.Data.nav.collaborate}}
             <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
             {{end}}
           </div>
@@ -97,10 +96,10 @@
             Media
           </a>
           <div
-            class="dropdown-menu bg-transparent border-0"
+            class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.footer.media}}
+            {{ range $.Site.Data.nav.media}}
             <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
             {{end}}
           </div>
@@ -118,10 +117,10 @@
             Company
           </a>
           <div
-            class="dropdown-menu bg-transparent border-0"
+            class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.footer.company}}
+            {{ range $.Site.Data.nav.company}}
             <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
             {{end}}
           </div>
