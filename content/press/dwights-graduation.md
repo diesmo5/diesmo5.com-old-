@@ -28,5 +28,5 @@ His dad has had the biggest impact on his life, Dwight said.
 “He’ll work around his busy work schedule to come to every event, and in times of need somehow he always knows what to do,” the teen said. A decade from now, Dwight hopes he’ll be the president of his own startup using the computer skills he acquired through education.
 
 <div class="text-center py-3">
-    <a href="https://www.thecamarilloacorn.com/articles/rancho-campanas-inaugural-graduating-class-is-looking-toward-future/" target="_blank" class="btn btn-primary text-white">READ THE FULL ARTICLE</a>
+    <a href="https://www.thecamarilloacorn.com/articles/rancho-campanas-inaugural-graduating-class-is-looking-toward-future/" target="_blank" class="btn btn-rose btn-lg rounded-0 text-white px-5"">READ THE FULL ARTICLE</a>
 </div>

@@ -10,12 +10,12 @@
 <div class="container py-5">
   <div class="row">
     {{ range $.Site.Data.store.courses}}
-    <div class="card col-lg-4 col-md-6 col-12 p-4">
+    <div class="card border-0 col-lg-4 col-md-6 col-12">
       <a href="" data-toggle="modal" data-target="#{{.title}}" class="text-decoration-none text-yankees">
       <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
       <div class="card-body">
         <h6 class="card-title font-weight-bold">{{.title}}</h6>
-        <h6 class="card-text text-small">{{.description}}</small>
+        <!-- <h6 class="card-text text-small">{{.description}}</small> -->
           <h6 class="card-text pt-1 pb-3">${{.price}}</h6>
         </a>
           <div class="text-center">
@@ -62,12 +62,14 @@
       </div>
       <div class="modal-body">
         <img src="{{.img}}" alt="{{.alt}}" class="w-100" />
+        <h5 class="font-weight-bold text-yankees pt-3">{{.title}}</h5>
+        <p class="font-weight-light">{{.description}}</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-yankees rounded-0" data-dismiss="modal">
           Close
         </button>
-        <a type="button" class="btn btn-rose rounded-0" href="{{.purchase}}">Purchase</a>
+        <a type="button" class="btn btn-rose rounded-0" href="{{.url}}" target="_blank">Purchase</a>
       </div>
     </div>
   </div>

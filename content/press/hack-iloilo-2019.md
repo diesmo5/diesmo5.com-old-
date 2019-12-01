@@ -47,5 +47,5 @@ Hack Iloilo rewarded 1st Place Winners, Jules Nathaniel Perez and Renzo Alfonso 
 Hack Iloilo is the first step towards <i>The Philippines Initiative</i> and it will continue to strive towards providing students a way to make the world a better place through their skills, vision, and initiative.
 
 <div class="text-center py-3">
-    <a href="https://hackiloilo.com" target="_blank" class="btn btn-primary text-white">VISIT HACK ILOILO</a>
+    <a href="https://hackiloilo.com" target="_blank" class="btn btn-rose btn-lg rounded-0 text-white px-5">VISIT HACK ILOILO</a>
 </div>
