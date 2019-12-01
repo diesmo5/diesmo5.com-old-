@@ -3,7 +3,7 @@ title: "Speaking Engagement"
 date: 2018-10-03T16:43:47-07:00
 draft: false
 
-description:
+description: DWIGHT DIESMO, MANAGING PARTNER OF DIESMO 5, DELIVERS SPEECHES TO SCHOOLS, UNIVERSITIES, AND CONFERENCES DISCUSSING TECHNOLOGY, SOCIAL MEDIA, CAREER ADVANCEMENT, BUSINESS DEVELOPMENT, SOFTWARE, INTERNET OF THINGS, EDUCATION & MORE.  
 
 img: /img/events/rchs/tedx-2018-diesmo5-dwight-diesmo-speech-1280x960.png
 alt: "A Wide Shot Image of the Hack Iloilo 2019 Event"

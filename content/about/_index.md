@@ -2,6 +2,8 @@
 title: "About"
 date: 2018-10-03T16:43:47-07:00
 draft: false
+
+description: DIESMO 5 STORY
 ---
 
 Our story is not about overnight success nor is it about the glitz and glamour of entrepreneurship and engineering. Our story began many years ago in Dumangas, Iloilo, Philippines.
