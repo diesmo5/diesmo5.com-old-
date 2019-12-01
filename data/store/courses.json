@@ -1,0 +1,29 @@
+{
+    "1": {
+        "title": "Modern Web Development",
+        "description": "Learn the fundamental concepts behind web development. Build static responsive websites using Bootstrap 4 and Hugo. Build dynamic websites using React JS. ",
+        "price": "100",
+        "img": "/img/store/arduino-starter-kit.jpg",
+        "alt": "",
+        "modal": "webdevelopment",
+        "url": ""
+    },
+    "2": {
+        "title": "React App Development",
+        "description": "Are you trying to build a brand? Our artists will design a brand that speaks to your customers.",
+        "price": "100",
+        "img": "",
+        "alt": "",
+        "url": ""
+
+    },
+    "3": {
+        "title": "C How to Program",
+        "description": "Coming Soon...",
+        "price": "100",
+        "img": "",
+        "alt": "",
+        "url": ""
+
+    }
+}

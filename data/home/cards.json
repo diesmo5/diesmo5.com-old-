@@ -1,27 +1,27 @@
 {
     "1": {
         "title": "Web Services",
-        "description": "Get hundreds of hours content for $12.",
-        "img": "/img/masterclass-square-promo.png",
+        "description": "Modern Web Development Built to Last",
+        "img": "/img/web-services-square-promo.png",
         "alt": "",
-        "tagline": "Start a Course",
+        "tagline": "Learn More",
         "url": ""
     },
     "2": {
         "title": "Design Services",
-        "description": "Organize a Hackathon with diesmo5.",
-        "img": "/img/hackathon-square-promo.png",
+        "description": "Design that Disrupts",
+        "img": "/img/design-services-square-promo.png",
         "alt": "",
         "tagline": "Learn More",
         "url": ""
     },
     "3": {
         "title": "Educational Services",
-        "description": "Get hundreds of hours content for $12.",
-        "img": "/img/events-square-promo.png",
+        "description": "Plan an event with us for your school",
+        "img": "/img/edux-square-promo.png",
         "alt": "",
-        "tagline": "Start a Course",
-        "url": ""
+        "tagline": "Collaborate",
+        "url": "/partners/"
     },
     "4": {
         "title": "Newsletter",

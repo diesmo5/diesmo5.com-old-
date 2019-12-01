@@ -1,4 +1,8 @@
 {
+    "Courses": {
+        "title": "Courses",
+        "url": "/courses/"
+    },
     "Products": {
         "title": "Products",
         "url": "/products/"
@@ -10,9 +14,5 @@
     "Pro Group": {
         "title": "Pro Group",
         "url": "/pro-group/"
-    },
-    "Support": {
-        "title": "Support",
-        "url": ""
     }
 }

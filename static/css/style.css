@@ -81,6 +81,9 @@
 .text-rose {
   color: #f40c84;
 }
+.text-rose:hover {
+  color: #d31b7a;
+}
 
 .hover {
   background-color: #ffffff;
