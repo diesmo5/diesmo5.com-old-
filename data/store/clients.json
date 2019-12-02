@@ -1,7 +1,37 @@
 {
     "MattUllerick": {
         "url": "https://mattullerick.com/",
-        "img": "https://mattullerick.com/img/logo/logo.png",
+        "img": "/img/clients/mattullerick-logo.jpg",
+        "alt": ""
+    },
+    "Enemies Apparel": {
+        "url": "#",
+        "img": "/img/clients/enemies-logo.jpg",
+        "alt": ""
+    },
+    "MagsFast": {
+        "url": "#",
+        "img": "/img/clients/magsfast-logo.jpg",
+        "alt": ""
+    },
+    "PC Antivirus Reviews": {
+        "url": "#",
+        "img": "/img/clients/pcantivirusreviews-logo.jpg",
+        "alt": ""
+    },
+    "Tava Kessler": {
+        "url": "#",
+        "img": "/img/clients/tavakessler-logo.jpg",
+        "alt": ""
+    },
+    "EduFriend": {
+        "url": "#",
+        "img": "/img/clients/edufriend-logo.jpg",
+        "alt": ""
+    },
+    "H.O.P.E.": {
+        "url": "#",
+        "img": "/img/clients/hope-logo.jpg",
         "alt": ""
     }
 }
