@@ -1,40 +1,35 @@
 {{ define "main" }} {{ partial "navbar" . }}
 
 <div class="container py-5">
-  <h3 class="font-weight-bold text-center text-dark">
+  <h1 class="font-weight-bold text-center text-dark display-1">
     {{.Title}}
-  </h3>
+  </h1>
   <p class="">{{.Content}}</p>
+</div>
 
-  <div class="row">
-    {{range $.Site.Data.store.services}}
-    <div class="card border-0 col-lg-4 col-md-4 col-12">
-      <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
-      <div class="card-body text-center">
-        <p class="card-title font-weight-bold text-dark text-center ">
-          {{.title}}
-        </p>
-        <p class="card-title">{{.description}}</p>
-        <a
-          class="btn btn-yankees rounded-0"
-          href="https://square.site/book/Z2N4T0WQDXAG7/diesmo5-camarillo-ca"
-          target="_blank"
-          rel="nofollow"
-          >Book an Appointment</a
-        >
+<section class="">
+  {{ range .Pages }}
+  <a href="{{.URL}}" class="text-decoration-none">
+    <div class="row" style="background-image: url('{{.Params.img}}'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; min-height: 50vh;">
+      <div class="m-auto text-white hover-services">
+        <h1 class="">{{.Params.header}}</h1>
       </div>
     </div>
-    {{ end }}
+  </a>
+
+  <div class="container py-5">
+    <h2 class="text-center">{{.Title}}</h2>
+    <h6 class="text-center text-dark pt-2 pb-3">{{.Description}}</h6>
+    <div class="text-center">
+      <a href="{{.URL}}" class="btn btn-yankees rounded-0 px-5">Learn More</a>
+    </div>
   </div>
-  <h6 class="font-weight-light text-rose text-small">
-    *First Consultations are Free
-  </h6>
-  <div class="text-center">
-    <a href="/work/" class="font-weight-light text-yankees text-small"
-      >View Work</a
-    >
-  </div>
-</div>
+
+
+  {{end}}
+</section>
+
+{{ partial "clients" . }}
 
 <div class="container-fluid text-center py-5">
   <div class="container py-5">
@@ -46,5 +41,6 @@
     >
   </div>
 </div>
+
 
 {{ end }}

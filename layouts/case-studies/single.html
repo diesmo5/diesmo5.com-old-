@@ -1,0 +1,47 @@
+{{ define "main" }} {{ partial "navbar" . }}
+
+<div class="" style="">
+  <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="header-img" />
+</div>
+
+<section class="container">
+  <h1 class="text-yankees text-center pt-5 pb-2">{{.Title}}</h1>
+  <h2 class="text-dark text-center pb-5">
+    {{.Description}}
+  </h2>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-12">
+      <h1 class="font-weight-light">{{.Params.headline}}</h1>
+      <h4 class="text-light font-weight-light">
+        {{.Params.overview}}
+      </h4>
+    </div>
+    <div class="col-lg-3 col-md-3 col-12">
+      <h6 class="text-light">SCOPE OF PROJECT</h6>
+      <h6 class="font-weight-light">{{.Params.keywords}}</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-12">
+      <h5 class="">CHALLENGE</h5>
+      <h5 class="font-weight-light text-light">{{.Params.challenge}}</h5>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+        <h5 class="">OUTCOME</h5>
+        <h5 class="font-weight-light text-light">{{.Params.outcome}}</h5>
+    </div>
+  </div>
+</section>
+
+<div class="bg-primary">
+    Hello
+</div>
+
+<section class="container">
+  <p class="">{{.Content}}</p>
+</section>
+
+{{ end }}

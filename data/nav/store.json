@@ -10,9 +10,5 @@
     "Services": {
         "title": "Services",
         "url": "/services/"
-    },
-    "Pro Group": {
-        "title": "Pro Group",
-        "url": "/pro-group/"
     }
 }

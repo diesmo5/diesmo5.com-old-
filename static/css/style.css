@@ -144,6 +144,8 @@ a.text-yankees:hover {
 }
 
 .header-img {
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: ;
+  width: 100%;
+  position: center;
+  size: cover;
 }
