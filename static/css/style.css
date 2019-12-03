@@ -1,7 +1,7 @@
 .text-small {
   font-size: 11px;
 }
-.rounded-0{
+.rounded-0 {
   border-radius: 0px;
 }
 
@@ -94,52 +94,52 @@ a.text-yankees:hover {
 
 .hover-yankees:hover {
   background-color: #1a1c3a;
-  color:#ffffff;
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 .hover-indigo:hover {
   background-color: #47008e;
-  color:#ffffff;
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 .hover-grape:hover {
   background-color: #771eb2;
-  color:#ffffff;
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 .hover-bonbon:hover {
   background-color: #f43fb2;
-  color:#ffffff;
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 .hover-rose:hover {
   background-color: #f40c84;
-  color:#ffffff;
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 .hover-outline-yankees:hover {
   background-color: #ffffff;
-  color:#1a1c3a;
+  color: #1a1c3a;
   transition-duration: 0.8s;
 }
 .hover-outline-indigo:hover {
   background-color: #ffffff;
-  color:#47008e;
+  color: #47008e;
   transition-duration: 0.8s;
 }
 .hover-outline-grape:hover {
   background-color: #ffffff;
-  color:#771eb2;
+  color: #771eb2;
   transition-duration: 0.8s;
 }
 .hover-outline-bonbon:hover {
   background-color: #ffffff;
-  color:#f43fb2;
+  color: #f43fb2;
   transition-duration: 0.8s;
 }
 .hover-outline-rose:hover {
   background-color: #ffffff;
-  color:#f40c84;
+  color: #f40c84;
   transition-duration: 0.8s;
 }
 
@@ -159,7 +159,7 @@ a.text-yankees:hover {
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -173,11 +173,11 @@ a.text-yankees:hover {
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay {
   opacity: 1;
 }
 
-.content-image{
+.content-image {
   width: 100vh;
 }
 
@@ -198,13 +198,13 @@ a.text-yankees:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h3{
+.content-details h3 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -212,23 +212,91 @@ a.text-yankees:hover {
   text-transform: uppercase;
 }
 
-.content-details p{
+.content-details p {
   color: #fff;
   font-size: 0.8em;
 }
 
-.fadeIn-bottom{
+.article {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.article .article-overlay {
+  /* background: rgba(244, 12, 132, 0.7); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.article:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.article-image {
+  width: 100vh;
+}
+
+.article-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.article .article-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.article-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.article-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom {
   top: 80%;
 }
 
-.fadeIn-top{
+.fadeIn-top {
   top: 20%;
 }
 
-.fadeIn-left{
+.fadeIn-left {
   left: 20%;
 }
 
-.fadeIn-right{
+.fadeIn-right {
   left: 80%;
 }
