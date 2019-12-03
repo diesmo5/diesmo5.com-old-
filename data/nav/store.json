@@ -1,14 +1,20 @@
 {
     "Courses": {
         "title": "Courses",
+        "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "alt": "",
         "url": "/courses/"
     },
     "Products": {
         "title": "Products",
+        "img": "https://images.unsplash.com/photo-1495846414472-6696652d955f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "alt": "",
         "url": "/products/"
     },
     "Services": {
         "title": "Services",
+        "img": "https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "alt": "",
         "url": "/services/"
     }
 }

@@ -9,25 +9,18 @@
 
 <div class="container-fluid py-5">
   <div class="row">
-    {{ range $.Site.Data.nav.collaborate }}
-    <div class="col-lg-6 col-md-6 col-12 py-3 m-auto">
-      <a href="{{.url}}" class="text-decoration-none">
+    {{ range $.Site.Data.nav.store }}
+    <div class="col-12 py-3 m-auto">
       <div class="content">
+        <a href="{{.url}}">
           <div class="content-overlay"></div>
           <img class="content-image w-100" src="{{.img}}" alt="{{.alt}}" />
-          <div class="content-details fadeIn-left">
+          <div class="content-details fadeIn-bottom">
             <h3 class="content-title">{{.title}}</h3>
             <!-- <p class="content-text">This is a short description</p> -->
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-12 py-5 center m-auto">
-        <h3 class="font-weight-bold text-yankees">{{.title}}</h3>
-        <h6 class="font-weight-light text-dark left pb-4">{{.tagline}}</h6>
-        <a href="{{.url}}" class="btn btn-lg btn-rose rounded-0 px-5">
-          Learn More
         </a>
-      </a>
+      </div>
     </div>
     {{end}}
   </div>

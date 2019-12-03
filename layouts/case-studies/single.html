@@ -1,47 +1,110 @@
 {{ define "main" }} {{ partial "navbar" . }}
 
 <div class="" style="">
-  <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="header-img" />
+  <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="w-100" />
 </div>
 
 <section class="container">
-  <h1 class="text-yankees text-center pt-5 pb-2">{{.Title}}</h1>
-  <h2 class="text-dark text-center pb-5">
+  <h1 class="text-dark font-weight-bold text-center pt-5 pb-2">
+    {{.Title}}
+  </h1>
+  <h3 class="text-secondary text-uppercase text-center pb-5">
     {{.Description}}
-  </h2>
+  </h3>
 </section>
 
-<section class="container">
+<section class="container py-5">
   <div class="row">
-    <div class="col-lg-9 col-md-9 col-12">
-      <h1 class="font-weight-light">{{.Params.headline}}</h1>
-      <h4 class="text-light font-weight-light">
+    <div class="col-lg-9 col-md-9 col-12 py-5">
+      <h1 class="font-weight-normal">{{.Params.headline}}</h1>
+      <h4 class="text-dark font-weight-light pt-4">
         {{.Params.overview}}
       </h4>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 col-12 py-4">
+          <h5 class="">CHALLENGE</h5>
+          <h5 class="font-weight-light text-secondary">
+            {{.Params.challenge}}
+          </h5>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 py-4">
+          <h5 class="">OUTCOME</h5>
+          <h5 class="font-weight-light text-secondary">{{.Params.outcome}}</h5>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-12">
-      <h6 class="text-light">SCOPE OF PROJECT</h6>
-      <h6 class="font-weight-light">{{.Params.keywords}}</h6>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4 col-md-6 col-12">
-      <h5 class="">CHALLENGE</h5>
-      <h5 class="font-weight-light text-light">{{.Params.challenge}}</h5>
-    </div>
-    <div class="col-lg-4 col-md-6 col-12">
-        <h5 class="">OUTCOME</h5>
-        <h5 class="font-weight-light text-light">{{.Params.outcome}}</h5>
+    <div class="col-lg-3 col-md-3 col-12 py-5 text-uppercase">
+      <h6 class="text-dark">SCOPE OF PROJECT</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.keywords}}</h6>
+      <hr class="hidden-sm-down" />
+      <h6 class="text-dark pt-4">LEAD</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.director}}</h6>
+      <a href="#credits" class="text-decoration-none">
+        <h6 class="text-indigo pt-4">
+          FULL CREDITS
+        </h6>
+      </a>
+      <hr class="hidden-sm-down" />
     </div>
   </div>
 </section>
 
-<div class="bg-primary">
-    Hello
-</div>
+<hr class="container" />
 
 <section class="container">
   <p class="">{{.Content}}</p>
+  <hr />
+</section>
+
+<div class="container-fluid text-center pb-5">
+  <div class="container py-5">
+    <h4 class="font-weight-light">Ready to Talk?</h4>
+    <a
+      href="/contact/"
+      class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
+      >Build a Website</a
+    >
+  </div>
+</div>
+
+<section class="container py-5">
+  <h2 class="text-center py-5">Credits</h2>
+  <div class="row center text-uppercase">
+    <div class="col-lg-4 col-md-6 col-12">
+      <h6 class="text-dark">CLIENT</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.client}}</h6>
+      <h6 class="text-dark pt-4">CLIENT CEO</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.clientCEO}}</h6>
+      <h6 class="text-dark pt-4">PRODUCTION COMPANY</h6>
+      <h6 class="font-weight-light text-secondary">DIESMO 5</h6>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+      <h6 class="text-dark">DIRECTOR</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.director}}</h6>
+      <h6 class="text-dark pt-4">DEVELOPER</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.developer}}</h6>
+      <h6 class="text-dark pt-4">DESIGNER</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.designer}}</h6>
+      <h6 class="text-dark pt-4">PROJECT MANAGER</h6>
+      <h6 class="font-weight-light text-secondary">
+        {{.Params.projectManager}}
+      </h6>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+      <h6 class="text-dark">SOFTWARE</h6>
+      <h6 class="font-weight-light text-secondary">{{.Params.software}}</h6>
+      <h6 class="text-dark pt-4">LINKS</h6>
+      <h6 class="font-weight-light">
+        <a
+          href="{{.Params.link}}"
+          target="_blank"
+          class="text-decoration-none text-secondary"
+          >{{.Params.linkTitle}}</a
+        >
+      </h6>
+    </div>
+  </div>
+  <div id="credits" class="pb-5"></div>
 </section>
 
 {{ end }}

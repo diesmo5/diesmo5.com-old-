@@ -5,7 +5,7 @@ draft: false
 
 header: Web
 description: Websites Designed to Solve Your Business Needs
-keywords: Websites, Web Development, Web Design, Web Hosting, Web Services, Responsive Web Design, Graphic Web Design, Web Illustrations, Web Consulting Services, Dynamic Website, Static Websites, Dynamic Website Development, Static Website Development, Hugo Website, Hugo, React JS, HTML, CSS, & JS, Bootstrap 4, E-Commerce, E-Commerce Website, Online Store, Online Store Website, Portfolio Website, Software Developper Website, Photographer Website, Cinematographer Website, Actor Website, Startup Website, Landing Page, Event Website 
+keywords: Websites, Web Development, Web Design, Web Hosting, Web Services, Responsive Web Design, Graphic Web Design, Web Illustrations, Web Consulting Services, Dynamic Website, Static Websites, Dynamic Website Development, Static Website Development, Hugo Website, Hugo, React JS, HTML, CSS, & JS, Bootstrap 4, E-Commerce, E-Commerce Website, Online Store, Online Store Website, Portfolio Website, Software Developper Website, Photographer Website, Cinematographer Website, Actor Website, Startup Website, Landing Page, Event Website, Search Egine Optimization 
 
 img: https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60
 

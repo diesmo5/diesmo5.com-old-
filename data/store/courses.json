@@ -2,7 +2,7 @@
     "1": {
         "title": "Modern Web Development",
         "description": "Learn the fundamental concepts behind web development. Build static responsive websites using Bootstrap 4 and Hugo. Build dynamic websites using React JS. ",
-        "price": "100",
+        "price": "4500",
         "img": "/img/courses/web-dev-square-promo.png",
         "alt": "",
         "modal": "webdevelopment",
@@ -11,7 +11,7 @@
     "2": {
         "title": "React App Development",
         "description": "Are you trying to build a brand? Our artists will design a brand that speaks to your customers.",
-        "price": "100",
+        "price": "4500",
         "img": "/img/courses/react-app-square-promo.png",
         "alt": "",
         "modal": "reactapp",
@@ -21,7 +21,7 @@
     "3": {
         "title": "C How to Program",
         "description": "Coming Soon...",
-        "price": "100",
+        "price": "4500",
         "img": "/img/courses/c-program-square-promo.png",
         "alt": "",
         "modal": "cprogram",
