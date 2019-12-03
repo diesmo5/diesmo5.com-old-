@@ -15,10 +15,6 @@ overview: We believe that every company is unique, that every company has their 
 
 
 ---
-
-<div class="row"></div>
-<img src="">
-
 <section class="py-5">
     <div class="row py-5">
         <div class="col-lg-6 col-md-6 col-12 m-auto">
@@ -56,20 +52,6 @@ overview: We believe that every company is unique, that every company has their 
 <div class="py-5" style="background-image: url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 50vh;">
 </div>
 
-<section class="py-5">
-    <div class="row py-5">
-        <div class="col-lg-6 col-md-6 col-12 m-auto">
-            <h3 class="font-weight-bold">
-                Define the Brand
-            </h3>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12 m-auto">
-            <h5 class="font-weight-light">
-                Every client has a brand that is personal and has its own message they would like to share with the world. It is important to define the brand deliberately in order to appropriately convey that message to customers. This starts by answering the 'Why' or the mission statement.
-            </h5>
-        </div>
-    </div>
-</section>
 <section class="py-5">
     <div class="row py-5">
         <div class="col-lg-6 col-md-6 col-12 m-auto">
@@ -123,18 +105,3 @@ overview: We believe that every company is unique, that every company has their 
 
 <div class="py-5" style="background-image: url('https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 50vh;">
 </div>
-
-<section class="py-5">
-    <div class="row py-5">
-        <div class="col-lg-6 col-md-6 col-12 m-auto">
-            <h3 class="font-weight-bold">
-                How can I hire DIESMO 5?
-            </h3>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12 m-auto">
-            <h5 class="font-weight-light">
-                We are open and understanding to every client that we come across. What helps us the most is contacting us via email (use the button below) and let us know a little bit about your business as well as the problem you are trying to solve. This gives us context and helps us better prepare for that first meeting allowing us to help you and your business to the best of our ability. As for our rate, we vary based on the scope of the project. This includes features, complexity, size of the website, duration of the project, and the company's status. We generally charge less for non-profit or student organizations.
-            </h5>
-        </div>
-    </div>
-</section>
