@@ -1,18 +1,38 @@
 {
-    "Youtube": {
-        "title": "Youtube",
-        "url": ""
+    "1Blog": {
+        "id": "Blog",
+        "title": "Read Our Articles",
+        "description": "Technology. Business. Education.",
+        "img": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80",
+        "action": "Read",
+        "url": "/blog/",
+        "color": "rose"
     },
-    "Newsletter": {
-        "title": "Newsletter",
-        "url": "/newsletter/"
+    "2Newsletter": {
+        "id": "Newsletter",
+        "title": "Join Our Community",
+        "description": "Follow our journey. Exclusive content & deals. Weekly live call.",
+        "img": "https://images.unsplash.com/photo-1496516348160-24b35a31856f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80",
+        "action": "Subscribe",
+        "url": "/newsletter/",
+        "color": "yankees"
     },
-    "Blog": {
-        "title": "Blog",
-        "url": "/press/"
+    "3Podcast": {
+        "id": "Podcast",
+        "title": "The Podcast",
+        "description": "Listen to Local Business Men & Women. Software Engineers. Educators.",
+        "img": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "action": "Listen",
+        "url": "/podcast/",
+        "color": "warning"
     },
-    "Podcast": {
-        "title": "Podcast",
-        "url": "/podcast/"
+    "4Youtube": {
+        "id": "YouTube",
+        "title": "The Channel",
+        "description": "Learn how to code websites, apps, & games. Learn about voice, virtual reality, unity, machine learning, and big data. Watch the podcasts. ",
+        "img": "https://images.unsplash.com/photo-1543185377-99cd16011803?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "action": "Watch",
+        "url": "/blog/",
+        "color": "danger"
     }
 }

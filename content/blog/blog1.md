@@ -9,5 +9,5 @@ author: Dwight Diesmo
 
 img: https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 
-color: 169, 0, 58, 0.7
+color: 217, 0, 65, 0.7
 ---

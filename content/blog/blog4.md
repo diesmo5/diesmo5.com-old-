@@ -10,5 +10,5 @@ author: Dwight Diesmo
 
 img: https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 
-color: 200, 81, 24, 0.7
+color: 60, 6, 153, 0.7
 ---
