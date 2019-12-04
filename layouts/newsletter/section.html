@@ -1,11 +1,38 @@
-{{ define "main" }}
-{{partial "navbar" . }}
+{{ define "main" }} {{partial "navbar" . }}
 
 <div class="container py-5">
-  <h3 class="font-weight-bold text-center text-dark">
+  <h1 class="font-weight-bold text-center text-dark">
     {{.Title}}
-  </h3>
-  <div class="pt-3 pb-5">{{.Content}} </div>
+  </h1>
+
+  <section class="py-5">
+    <div class="py-5">
+      <h2 class="">What do we offer?</h2>
+      <h4 class="font-weight-light">
+        We send newsletters with exclusive content and deals on DIESMO 5
+        products.
+      </h4>
+    </div>
+    <div class="py-5">
+      <h2 class="">How often do we send?</h2>
+      <h4 class="font-weight-light">
+        We send one newsletter every 2 weeks.
+      </h4>
+    </div>
+    <div class="py-5">
+      <h2 class="">How much does it cost to join?</h2>
+      <h4 class="font-weight-light">
+        It's free!
+      </h4>
+    </div>
+    <div class="py-5">
+      <h2 class="">Anything else?</h2>
+      <h4 class="font-weight-light">
+        Members of our newsletter get access to a live face time call once a week where we answer questions about engineering, design, or business.
+      </h4>
+    </div>
+  </section>
+
   <div class="card p-5">
     {{partial "mailchimp" . }}
   </div>

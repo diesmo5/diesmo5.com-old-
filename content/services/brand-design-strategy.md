@@ -7,7 +7,7 @@ header: Brand
 description: Design that Connects Your Brand and Your Audience
 keywords: Brand Design, Design Strategy, Logo Design, Styleguide, Brand Design Strategy, Responsive Logo Design, App Logo Design, Restaurant Logo Design, Startup Logo Design, Business Logo Design, Promotional Materials, Business Cards, Brochures, FLyers, Social Media Advertisements, Photoshop, Custom Illustrations, Custom Promotional Materials, Custom Business Cards, Custom Startup Logo Designs, Custom Logos, Custom Logo Designs
 
-img: https://images.unsplash.com/photo-1508599589920-14cfa1c1fe4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60
+img: /img/store/services/brand-header-1280X960.jpg
 
 headline: Brand that Connects. Design that Communicates. Signature Mark that Lasts.
 overview: Brand means so much more than the logo. Brand communicates to your audience. Every client's mission is unique and it is important that the branding that represents their business is appropriate and conveys their message properly.
