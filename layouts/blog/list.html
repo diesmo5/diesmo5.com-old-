@@ -1,7 +1,24 @@
 {{ define "main" }} {{ partial "navbar" . }}
 <!--  -->
 {{ range $.Site.Data.blog.featured}}
-<section
+<section class="container">
+  <div class="jumbotron" style="background-image: url({{.img}}); background-size: cover;">
+    <h1 class="">{{.title}}</h1>
+    <h3 class="">{{.description}}</h3>
+    <div class="row py-5 m-auto">
+      <div class="col-6">
+        <h6 class="text-white">{{.publisher}}</h6>
+        <h6 class="font-weight-light">{{.date}}</h6>
+      </div>
+      <div class="col-6 m-auto">
+        <a href="{{.url}}" class="btn btn-lg btn-rose rounded-0 px-5">
+          Expand
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section
   class="container-fluid m-auto"
   style="background-image: url({{.img}}); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 100vh;"
 >
@@ -26,7 +43,7 @@
     </div>
     <div class="col-lg-4 col-md-4 col-12"></div>
   </div>
-</section>
+</section> -->
 {{ end }}
 
 <section class="container py-5">
@@ -35,7 +52,10 @@
     <div class="col-lg-6 col-md-6 col-12 py-3">
       <div class="article">
         <a href="{{.URL}}">
-          <div class="article-overlay" style="background: rgba({{.Params.color}});"></div>
+          <div
+            class="article-overlay"
+            style="background: rgba({{.Params.color}});"
+          ></div>
           <img
             class="article-image w-100"
             src="{{.Params.img}}"
