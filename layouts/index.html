@@ -8,7 +8,21 @@
     <div class="carousel-inner">
       {{range $.Site.Data.home.carousel}}
       <div class="carousel-item {{.toggle}}">
-        <img src="{{.img}}" class="d-block w-100" alt="{{.alt}}" />
+        <div
+          style="background-image: url({{.img}}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 100vh;"
+        >
+          <!-- <img src="{{.img}}" class="d-block w-100" alt="{{.alt}}" /> -->
+          <div
+            class="container text-white"
+            style="position: relative; top: 60%;"
+          >
+            <h5 class="font-weight-normal">Welcome to DIESMO 5</h5>
+            <h1 class="font-weight-normal py-4">
+              We Help Brands & Businesses Gain a Competitive Advantage in the
+              Connected World.
+            </h1>
+          </div>
+        </div>
       </div>
       {{end}}
     </div>
@@ -17,12 +31,14 @@
 
 <div class="container-fluid bg-yankees text-white text-center py-5">
   <div class="container py-5">
-    <h1 class="font-weight-bold">We are a Brand Design Strategy Agency</h1>
+    <h1 class="font-weight-bold">We Build Businesses</h1>
     <h4 class="font-weight-light pt-2 pb-4">
       We help businesses grow, launch products, and build enduring relationships
       with their communities.
     </h4>
-    <a href="" class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
+    <a
+      href="/case-studies/"
+      class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
       >SEE OUR WORK</a
     >
   </div>
