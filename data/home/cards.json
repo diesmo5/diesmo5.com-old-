@@ -1,32 +1,32 @@
 {
     "1": {
-        "title": "Web Services",
-        "description": "Modern Web Development Built to Last",
-        "img": "/img/web-services-square-promo.png",
+        "title": "DWS",
+        "description": "Hosting. Domains. Design.",
+        "img": "/img/home/cards/dws-square.svg",
         "alt": "",
         "tagline": "Learn More",
-        "url": ""
+        "url": "/services/"
     },
     "2": {
-        "title": "Design Services",
-        "description": "Design that Disrupts",
-        "img": "/img/design-services-square-promo.png",
+        "title": "Courses",
+        "description": "Code. Projects. Mentors.",
+        "img": "/img/home/cards/youtube-square.svg",
         "alt": "",
         "tagline": "Learn More",
-        "url": ""
+        "url": "/courses/"
     },
     "3": {
-        "title": "Educational Services",
-        "description": "Plan an event with us for your school",
-        "img": "/img/edux-square-promo.png",
+        "title": "Collaborate",
+        "description": "Workshops. Events.",
+        "img": "/img/home/cards/collaborate-square.svg",
         "alt": "",
-        "tagline": "Collaborate",
-        "url": "/partners/"
+        "tagline": "Learn More",
+        "url": "/collaborate/"
     },
     "4": {
         "title": "Newsletter",
         "description": "Take part in our journey.",
-        "img": "/img/newsletter-square-promo.png",
+        "img": "/img/home/cards/newsletter-square.svg",
         "alt": "",
         "tagline": "Join the Community",
         "url": "/newsletter/"

@@ -29,7 +29,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-yankees text-white text-center py-5">
+<div class="container-fluid bg-yankees text-white text-center">
   <div class="container py-5">
     <h1 class="font-weight-bold">We Build Businesses</h1>
     <h4 class="font-weight-light pt-2 pb-4">
@@ -47,19 +47,15 @@
 <div class="container py-5">
   <div class="row">
     {{range $.Site.Data.home.cards}}
-    <div class="card col-lg-3 col-md-3 col-12 border-0">
-      <a href="{{.url}}" class="">
+    <div class="card col-lg-3 col-md-3 col-12 border-0 py-4">
+      <a href="{{.url}}" class="text-decoration-none text-dark">
         <img src="{{.img}}" class="card-img-top" alt="{{.alt}}" />
+        <h5 class="pt-3">{{.title}}</h5>
+        <text class="text-small">
+          {{.description}}
+        </text>
       </a>
-      <div class="card-body">
-        <a href="{{.url}}" class="text-decoration-none text-dark">
-          <h5 class="card-title">{{.title}}</h5>
-          <p class="card-text">
-            {{.description}}
-          </p>
-        </a>
-        <a href="{{.url}}" class="text-small">{{.tagline}} ></a>
-      </div>
+      <a href="{{.url}}" class="text-small">{{.tagline}} ></a>
     </div>
     {{end}}
   </div>
