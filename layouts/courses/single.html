@@ -1,5 +1,17 @@
-{{ define "main" }}
-{{ partial "navbar" . }}
+{{ define "main" }} {{ partial "navbar" . }}
 
+<section class="container pt-2 pb-5">
+  <img src="{{.Params.headerImg}}" alt="" class="w-100" />
+</section>
+
+<section class="container center">
+  <h1 class="font-weight-bold">{{.Title}}</h1>
+  <h2 class="font-weight-light">{{.Params.tagline}}</h2>
+  <a href="/register/" class="">Register</a>
+</section>
+
+<section class="container">
+    {{.Content}}
+</section>
 
 {{ end }}

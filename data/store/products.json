@@ -1,10 +1,10 @@
 {
-    "1": {
-        "title": "Arduino",
-        "description": "Need a website? We'll build one specific to your needs to increase sales, engagements, or aesthetic.",
-        "price": "87.90",
-        "img": "/img/store/arduino-starter-kit.jpg",
+    "Business Cards": {
+        "title": "Business Cards",
+        "description": "We design, create, and ship the cards for you.",
+        "price": "$20",
+        "img": "/img/store/products/business-cards-1280X960.jpg",
         "alt": "",
-        "url": "https://checkout.square.site/buy/MWLTW2Z5ICU7DQ3UIL7GYZ55"
+        "url": ""
     }
 }

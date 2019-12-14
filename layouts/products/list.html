@@ -10,25 +10,15 @@
 <div class="container py-5">
   <div class="row">
     {{ range $.Site.Data.store.products}}
-    <div class="card col-lg-4 col-md-6 col-12 p-4">
-      <a href="" data-toggle="modal" data-target="#{{.title}}" class="text-decoration-none text-yankees">
+    <div class="card col-lg-4 col-md-6 col-12 border-0 center">
+      <a href="{{.url}}" class="text-decoration-none text-yankees">
       <img src="{{.img}}" alt="{{.alt}}" class="card-img" />
-      <div class="card-body">
-        <h6 class="card-title font-weight-bold">{{.title}}</h6>
-        <h6 class="card-text text-small">{{.description}}</small>
-          <h6 class="card-text pt-1 pb-3">${{.price}}</h6>
-        </a>
-          <div class="text-center">
-          <button
-            type="button"
-            class="btn btn-rose rounded-0"
-            data-toggle="modal"
-            data-target="#{{.title}}"
-          >
-            View {{.title}}
-          </button>
-        </div>
+      <div class=" py-2">
+        <h5 class="font-weight-bold">{{.title}}</h5>
+        <!-- <h6 class="">{{.description}}</small> -->
+        <h6 class="text-small text-secondary">Starting at {{.price}}</h6>
       </div>
+      </a>  
     </div>
     {{end}}
   </div>
@@ -38,7 +28,7 @@
 
 
 
-{{ range $.Site.Data.store.products}}
+<!-- {{ range $.Site.Data.store.products}}
 <div
   class="modal fade"
   id="{{.title}}"
@@ -72,4 +62,6 @@
     </div>
   </div>
 </div>
-{{end}} {{ end }}
+{{end}}  -->
+<!--  -->
+{{ end }}

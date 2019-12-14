@@ -1,31 +1,49 @@
 {
-    "1": {
+    "Modern Web Development Course": {
         "title": "Modern Web Development",
         "description": "Learn the fundamental concepts behind web development. Build static responsive websites using Bootstrap 4 and Hugo. Build dynamic websites using React JS. ",
-        "price": "4500",
-        "img": "/img/courses/web-dev-square-promo.png",
-        "alt": "",
-        "modal": "webdevelopment",
-        "url": "https://checkout.square.site/buy/BEZASTOMQFNFEVIHAGHBUMTO"
+        "type": "Course",
+        "price": "",
+        "img": "/img/store/courses/bootstrap-square.jpg",
+        "alt": "DIESMO 5 web development course promo",
+        "url": ""
+
     },
-    "2": {
+    "React App Development Course": {
         "title": "React App Development",
-        "description": "Are you trying to build a brand? Our artists will design a brand that speaks to your customers.",
-        "price": "4500",
-        "img": "/img/courses/react-app-square-promo.png",
+        "description": "Learn how to build beautiful apps with React Native.",
+        "type": "Course",
+        "price": "",
+        "img": "/img/store/courses/react-square.jpg",
         "alt": "",
-        "modal": "reactapp",
-        "url": "https://checkout.square.site/buy/W5L4KVZKWRQ3YTXUFTEZAINL"
+        "url": ""
 
     },
-    "3": {
+    "C How to Program Course": {
         "title": "C How to Program",
-        "description": "Coming Soon...",
-        "price": "4500",
-        "img": "/img/courses/c-program-square-promo.png",
+        "description": "For students stufying computer engineering, electrical engineering, or computer science, you will have to learn C.",
+        "type": "Course",
+        "price": "",
+        "img": "/img/store/courses/c-square.jpg",
         "alt": "",
-        "modal": "cprogram",
-        "url": "https://checkout.square.site/buy/QFSFEZRYHO5CYLVHPC67SSJI"
-
+        "url": ""
+    },
+    "Web Developer Bootcamp": {
+        "title": "Web Developer Bootcamp",
+        "description": "Learn how to develop dynamic websites like Facebook and Twitter.",
+        "type": "Bootcamp",
+        "price": "$300",
+        "img": "/img/store/courses/polymer-square.jpg",
+        "alt": "",
+        "url": "https://checkout.square.site/buy/IQRLV565EJ5Z3YYHUQOYZFZG"
+    },
+    "Web Design Bootcamp": {
+        "title": "Web Design Bootcamp",
+        "description": "Learn how to design beautiful websites for blogs, restaurants, startups, or landing pages.",
+        "type": "Bootcamp",
+        "price": "$300",
+        "img": "/img/store/courses/figma-square.jpg",
+        "alt": "",
+        "url": "https://checkout.square.site/buy/WMBBNG56XARRQLEKM3IZUKEF"
     }
 }
