@@ -1,302 +1,305 @@
 .text-small {
-font-size: 11px;
+  font-size: 11px;
 }
 .rounded-0 {
-border-radius: 0px;
+  border-radius: 0px;
+}
+.display-1 {
+  font-size: 64px;
 }
 
 .bg-yankees {
-background-color: #1a1c3a;
+  background-color: #1a1c3a;
 }
 .bg-indigo {
-background-color: #47008e;
+  background-color: #47008e;
 }
 .bg-grape {
-background-color: #771eb2;
+  background-color: #771eb2;
 }
 .bg-bonbon {
-background-color: #f43fb2;
+  background-color: #f43fb2;
 }
 .bg-rose {
-background-color: #f40c84;
+  background-color: #f40c84;
 }
 
 .btn-yankees {
-background-color: #1a1c3a;
-color: #ffffff;
+  background-color: #1a1c3a;
+  color: #ffffff;
 }
 .btn-indigo {
-background-color: #47008e;
-color: #ffffff;
+  background-color: #47008e;
+  color: #ffffff;
 }
 .btn-grape {
-background-color: #771eb2;
-color: #ffffff;
+  background-color: #771eb2;
+  color: #ffffff;
 }
 .btn-bonbon {
-background-color: #f43fb2;
-color: #ffffff;
+  background-color: #f43fb2;
+  color: #ffffff;
 }
 .btn-rose {
-background-color: #f40c84;
-color: #ffffff;
+  background-color: #f40c84;
+  color: #ffffff;
 }
 
 .btn-yankees:hover {
-background-color: #00022e;
-color: #ffffff;
+  background-color: #00022e;
+  color: #ffffff;
 }
 .btn-indigo:hover {
-background-color: #390072;
-color: #ffffff;
+  background-color: #390072;
+  color: #ffffff;
 }
 .btn-grape:hover {
-background-color: #571583;
-color: #ffffff;
+  background-color: #571583;
+  color: #ffffff;
 }
 .btn-bonbon:hover {
-background-color: #c42489;
-color: #ffffff;
+  background-color: #c42489;
+  color: #ffffff;
 }
 .btn-rose:hover {
-background-color: #b10c61;
-color: #ffffff;
+  background-color: #b10c61;
+  color: #ffffff;
 }
 
 .text-yankees {
-color: #1a1c3a;
+  color: #1a1c3a;
 }
 a.text-yankees:hover {
-color: #1a1c3a;
+  color: #1a1c3a;
 }
 .text-indigo {
-color: #47008e;
+  color: #47008e;
 }
 .text-grape {
-color: #771eb2;
+  color: #771eb2;
 }
 .text-bonbon {
-color: #f43fb2;
+  color: #f43fb2;
 }
 .text-rose {
-color: #f40c84;
+  color: #f40c84;
 }
 .text-rose:hover {
-color: #d31b7a;
+  color: #d31b7a;
 }
 
 .hover {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 .hover-outline {
-color: #ffffff;
+  color: #ffffff;
 }
 
 .hover-yankees:hover {
-background-color: #1a1c3a;
-color: #ffffff;
-transition-duration: 0.8s;
+  background-color: #1a1c3a;
+  color: #ffffff;
+  transition-duration: 0.8s;
 }
 .hover-indigo:hover {
-background-color: #47008e;
-color: #ffffff;
-transition-duration: 0.8s;
+  background-color: #47008e;
+  color: #ffffff;
+  transition-duration: 0.8s;
 }
 .hover-grape:hover {
-background-color: #771eb2;
-color: #ffffff;
-transition-duration: 0.8s;
+  background-color: #771eb2;
+  color: #ffffff;
+  transition-duration: 0.8s;
 }
 .hover-bonbon:hover {
-background-color: #f43fb2;
-color: #ffffff;
-transition-duration: 0.8s;
+  background-color: #f43fb2;
+  color: #ffffff;
+  transition-duration: 0.8s;
 }
 .hover-rose:hover {
-background-color: #f40c84;
-color: #ffffff;
-transition-duration: 0.8s;
+  background-color: #f40c84;
+  color: #ffffff;
+  transition-duration: 0.8s;
 }
 .hover-outline-yankees:hover {
-background-color: #ffffff;
-color: #1a1c3a;
-transition-duration: 0.8s;
+  background-color: #ffffff;
+  color: #1a1c3a;
+  transition-duration: 0.8s;
 }
 .hover-outline-indigo:hover {
-background-color: #ffffff;
-color: #47008e;
-transition-duration: 0.8s;
+  background-color: #ffffff;
+  color: #47008e;
+  transition-duration: 0.8s;
 }
 .hover-outline-grape:hover {
-background-color: #ffffff;
-color: #771eb2;
-transition-duration: 0.8s;
+  background-color: #ffffff;
+  color: #771eb2;
+  transition-duration: 0.8s;
 }
 .hover-outline-bonbon:hover {
-background-color: #ffffff;
-color: #f43fb2;
-transition-duration: 0.8s;
+  background-color: #ffffff;
+  color: #f43fb2;
+  transition-duration: 0.8s;
 }
 .hover-outline-rose:hover {
-background-color: #ffffff;
-color: #f40c84;
-transition-duration: 0.8s;
+  background-color: #ffffff;
+  color: #f40c84;
+  transition-duration: 0.8s;
 }
 
 .header-img {
-min-height: 100vh;
-/* width: 100%; */
-position: center;
-size: cover;
+  min-height: 100vh;
+  /* width: 100%; */
+  position: center;
+  size: cover;
 }
 
 .content {
-position: relative;
-width: 100%;
-max-width: 100%;
-margin: auto;
-overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .content .content-overlay {
-background: rgba(0, 0, 0, 0.7);
-position: absolute;
-height: 100%;
-width: 100%;
-left: 0;
-top: 0;
-bottom: 0;
-right: 0;
-opacity: 0;
--webkit-transition: all 0.4s ease-in-out 0s;
--moz-transition: all 0.4s ease-in-out 0s;
-transition: all 0.4s ease-in-out 0s;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .content:hover .content-overlay {
-opacity: 1;
+  opacity: 1;
 }
 
 .content-image {
-width: 100vh;
+  width: 100vh;
 }
 
 .content-details {
-position: absolute;
-text-align: center;
-padding-left: 1em;
-padding-right: 1em;
-width: 100%;
-top: 50%;
-left: 50%;
-opacity: 0;
--webkit-transform: translate(-50%, -50%);
--moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
--webkit-transition: all 0.3s ease-in-out 0s;
--moz-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .content:hover .content-details {
-top: 50%;
-left: 50%;
-opacity: 1;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
 }
 
 .content-details h3 {
-color: #fff;
-font-weight: 500;
-letter-spacing: 0.15em;
-margin-bottom: 0.5em;
-text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
 .content-details p {
-color: #fff;
-font-size: 0.8em;
+  color: #fff;
+  font-size: 0.8em;
 }
 
 .article {
-position: relative;
-width: 100%;
-max-width: 100%;
-margin: auto;
-overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .article .article-overlay {
-/* background: rgba(244, 12, 132, 0.7); */
-position: absolute;
-height: 100%;
-width: 100%;
-left: 0;
-top: 0;
-bottom: 0;
-right: 0;
-opacity: 1;
--webkit-transition: all 0.4s ease-in-out 0s;
--moz-transition: all 0.4s ease-in-out 0s;
-transition: all 0.4s ease-in-out 0s;
+  /* background: rgba(244, 12, 132, 0.7); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .article:hover {
-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.4);
-color: #fff;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
 
 .article-image {
-width: 100vh;
+  width: 100vh;
 }
 
 .article-details {
-position: absolute;
-text-align: center;
-padding-left: 1em;
-padding-right: 1em;
-width: 100%;
-top: 50%;
-left: 50%;
-opacity: 0;
--webkit-transform: translate(-50%, -50%);
--moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
--webkit-transition: all 0.3s ease-in-out 0s;
--moz-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .article .article-details {
-top: 50%;
-left: 50%;
-opacity: 1;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
 }
 
 .article-details h3 {
-color: #fff;
-font-weight: 500;
-letter-spacing: 0.15em;
-margin-bottom: 0.5em;
-text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
 .article-details p {
-color: #fff;
-font-size: 0.8em;
+  color: #fff;
+  font-size: 0.8em;
 }
 
 .fadeIn-bottom {
-top: 80%;
+  top: 80%;
 }
 
 .fadeIn-top {
-top: 20%;
+  top: 20%;
 }
 
 .fadeIn-left {
-left: 20%;
+  left: 20%;
 }
 
 .fadeIn-right {
-left: 80%;
+  left: 80%;
 }
