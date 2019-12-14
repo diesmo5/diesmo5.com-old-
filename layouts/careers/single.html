@@ -1,0 +1,47 @@
+{{ define "main" }} {{ partial "navbar" . }}
+
+<section class="container py-5">
+  <h1 class="center">{{.Title}}</h1>
+  <div class="row pt-4 pb-5">
+    <div class="col-lg-9 col-md-8 col-12">
+      <h6 class="">{{.Description}}</h6>
+      <h6 class="font-weight-light">{{.Content}}</h6>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12 m-auto">
+      <h6 class="">
+        Openings:
+        <i class="font-weight-light">
+          {{.Params.slots}}
+        </i>
+      </h6>
+      <h6 class="">
+        Location:
+        <i class="font-weight-light">
+          {{.Params.location}}
+        </i>
+      </h6>
+      <h6 class="">
+        Openings:
+        <i class="font-weight-light">
+          {{.Params.slots}}
+        </i>
+      </h6>
+      <h6 class="">
+        Rate:
+        <i class="font-weight-light">
+          {{.Params.rate}}
+        </i>
+      </h6>
+      <h6 class="">
+        Qualification:
+        <i class="font-weight-light">
+          {{.Params.qualifications}}
+        </i>
+      </h6>
+      <a href="/contact/" class="text-decoration-none btn btn-yankees"
+        >Apply Now</a
+      >
+    </div>
+  </div>
+</section>
+{{ end }}

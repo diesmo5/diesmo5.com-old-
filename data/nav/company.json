@@ -6,5 +6,9 @@
     "Contact": {
         "title": "Contact",
         "url": "/contact/"
+    },
+    "Careers": {
+        "title": "Careers",
+        "url": "/careers/"
     }
 }
