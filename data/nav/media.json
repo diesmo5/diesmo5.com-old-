@@ -32,7 +32,16 @@
         "description": "Learn how to code websites, apps, & games. Learn about voice, virtual reality, unity, machine learning, and big data. Watch the podcasts. ",
         "img": "/img/media/youtube/header-1280X960.jpg",
         "action": "Watch",
-        "url": "/blog/",
+        "url": "https://www.youtube.com/channel/UCervm-DT4iirJRDVqziD4UQ?view_as=subscriber",
+        "color": "danger"
+    },
+    "Linktree": {
+        "id": "Linktree",
+        "title": "Our Linktree",
+        "description": "Follow us on social media platforms such as instagram, twitter, facebook, and linkedin.",
+        "img": "/img/media/youtube/header-1280X960.jpg",
+        "action": "Watch",
+        "url": "linktr.ee/diesmo5",
         "color": "danger"
     }
 }
