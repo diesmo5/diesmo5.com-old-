@@ -1,1 +1,44 @@
-{{define "main"}} {{partial "navbar" . }} {{end}}
+{{define "main"}}
+<!--  -->
+{{partial "navbar" . }}
+
+<section id="hero" class="">
+  <div class="container text-left pt-5">
+    <h6 class="font-weight-light">
+      {{.Date.Format "Jan 2 2006" }} &#9749; 6 min read
+    </h6>
+    <h1 class="font-weight-bold">{{.Title}}</h1>
+    <h3 class="font-weight-light">
+      <i>
+        {{.Description}}
+      </i>
+    </h3>
+    <img src="{{.Params.img}}" alt="" class="w-100 py-4" />
+  </div>
+</section>
+
+<section id="content" class="pb-5">
+  <div class="container">
+    <p class="font-weight-normal">{{.Content}}</p>
+  </div>
+</section>
+
+<section id="signature" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 my-auto">
+        <img
+          src="{{.Params.authorImg}}"
+          alt="{{.Params.author}}"
+          class="w-100 rounded-circle"
+        />
+      </div>
+      <div class="col-4 my-auto">
+        <h6 class="font-weight-bold">{{.Params.author}}</h6>
+        <h6 class="font-weight-light">{{.Params.authorTitle}}</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{end}}

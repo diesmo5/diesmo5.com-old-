@@ -2,48 +2,8 @@
 <!--  -->
 {{ range $.Site.Data.blog.featured}}
 <section class="container">
-  <div class="jumbotron" style="background-image: url({{.img}}); background-size: cover;">
-    <h1 class="">{{.title}}</h1>
-    <h3 class="">{{.description}}</h3>
-    <div class="row py-5 m-auto">
-      <div class="col-6">
-        <h6 class="text-white">{{.publisher}}</h6>
-        <h6 class="font-weight-light">{{.date}}</h6>
-      </div>
-      <div class="col-6 m-auto">
-        <a href="{{.url}}" class="btn btn-lg btn-rose rounded-0 px-5">
-          Expand
-        </a>
-      </div>
-    </div>
-  </div>
+  <h1 class="font-weight-bold text-center">Blog</h1>
 </section>
-<!-- <section
-  class="container-fluid m-auto"
-  style="background-image: url({{.img}}); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 100vh;"
->
-  <div class="text-white m-auto" style="position: absolute; top: 15rem;">
-    <div class="col-lg-4 col-md-4 col-12"></div>
-    <div class="container col-lg-8 col-md-8 col-12">
-      <h1 class="font-weight-bold col-lg-8 col-md-8 col-12">{{.title}}</h1>
-      <h5 class="font-weight-light col-lg-8 col-md-8 col-12">
-        {{.description}}
-      </h5>
-      <div class="row py-5 m-auto">
-        <div class="col-6">
-          <h6 class="text-white">{{.publisher}}</h6>
-          <h6 class="font-weight-light">{{.date}}</h6>
-        </div>
-        <div class="col-6 m-auto">
-          <a href="{{.url}}" class="btn btn-lg btn-rose rounded-0 px-5">
-            Expand
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12"></div>
-  </div>
-</section> -->
 {{ end }}
 
 <section class="container py-5">
@@ -63,8 +23,9 @@
           />
           <div class="article-details fadeIn-bottom text-white">
             <h3 class="article-title">{{.Title}}</h3>
-            <h6 class="content-text">{{.Description}}</h6>
-            <h6 class="text-small">{{.Params.author}}</h6>
+            <h6 class="article-title">{{.Date.Format "Jan 2 2006"}}</h6>
+            <!-- <h6 class="content-text">{{.Description}}</h6> -->
+            <!-- <h6 class="text-small">{{.Params.author}}</h6> -->
           </div>
         </a>
       </div>
