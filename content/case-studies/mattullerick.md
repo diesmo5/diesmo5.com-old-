@@ -58,7 +58,7 @@ outcome: DIESMO 5 helped MattUllerick focus their brand and marketing strategy. 
     </div>
 </section>
 
-<div class="py-5" style="background-image: url('/img/clients/mattullerick/mattullerick-cover2.jpg'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 50vh;">
+<div class="py-5" style="background-image: url('/img/clients/mattullerick/mattullerick-cover2.jpg'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 100vh;">
 </div>
 
 <section class="py-5">
@@ -79,7 +79,7 @@ outcome: DIESMO 5 helped MattUllerick focus their brand and marketing strategy. 
     </div>
 </section>
 
-<div class="py-5" style="background-image: url('https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 50vh;">
+<div class="py-5" style="background-image: url('https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 100vh;">
 </div>
 
 <section class="py-5">
