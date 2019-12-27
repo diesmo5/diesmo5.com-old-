@@ -40,7 +40,7 @@ outcome: DIESMO 5 helped MattUllerick focus their brand and marketing strategy. 
     </div>
 </section>
 
-<div class="py-5" style="background-image: url('/img/clients/mattullerick/mattullerick-cover.jpg'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 60vh;">
+<div class="py-5" style="background-image: url('/img/clients/mattullerick/mattullerick-cover.jpg'); background-size: contain; background-position: center; background-attachment: fixed; background-repeat: no-repeat; max-width: 100%; min-height: 100vh;">
 </div>
 
 <section class="py-5">
