@@ -39,9 +39,9 @@
         "id": "Linktree",
         "title": "Our Linktree",
         "description": "Follow us on social media platforms such as instagram, twitter, facebook, and linkedin.",
-        "img": "/img/media/youtube/header-1280X960.jpg",
+        "img": "/img/media/linktree/cover.png",
         "action": "Follow",
-        "url": "/linktree",
+        "url": "/linktree/",
         "color": "success"
     }
 }
