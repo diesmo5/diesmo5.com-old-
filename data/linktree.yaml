@@ -1,0 +1,30 @@
+Newsletter:
+    text: Subscribe to our Newsletter
+    link: /newsletter/
+Discord:
+    text: Join our Discord Server
+    link:
+Blog:
+    text: Read Articles from our Blog
+    link: /blog/
+Twitter:
+    text: Follow us on Twitter
+    link:
+Instagram:
+    text: Follow us on Instagram
+    link:
+LinkedIn:
+    text: Connect with us on LinkedIn
+    link:
+Facebook:
+    text: Follow us on Facebook
+    link:
+YouTube:
+    text: Subscribe to our YouTube Channel
+    link:
+Podcast:
+    text: Listen to Our Podcast
+    link:
+Store:
+    text: Visit our Store Page
+    link: /products-services/

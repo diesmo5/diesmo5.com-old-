@@ -1,0 +1,23 @@
+{{ define "main" }}
+<!--  -->
+{{ partial "navbar" }}
+
+<section id="header" class="py-5" style="background-color: #202020;">
+  <div class="container text-center">
+    <img src="/img/logo/favicon.png" alt="" class="col-3" />
+    <h6 class="text-light">@diesmo5</h6>
+  </div>
+  <div class="container text-center py-4">
+    {{ range $.Site.Data.linktree}}
+    <div class="py-2">
+      <a
+        href="{{.link}}"
+        class="btn btn-block btn-light font-weight-bold rounded-0 py-3"
+        >{{.text}}</a
+      >
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

@@ -40,8 +40,8 @@
         "title": "Our Linktree",
         "description": "Follow us on social media platforms such as instagram, twitter, facebook, and linkedin.",
         "img": "/img/media/youtube/header-1280X960.jpg",
-        "action": "Watch",
-        "url": "linktr.ee/diesmo5",
-        "color": "danger"
+        "action": "Follow",
+        "url": "/linktree",
+        "color": "success"
     }
 }
