@@ -1,18 +1,33 @@
-{{ define "main" }}
-{{ partial "navbar" . }}
+{{ define "main" }} {{ partial "navbar" . }}
 
-<img src="{{.Params.img}}" alt="" class="w-100">
+<img src="{{.Params.img}}" alt="" class="w-100" />
 
 <div class="container text-center py-5">
-    <h3 class="font-weight-bold">{{.Title}}</h3>
-    <h6 class="font-weight-bold text-dark text-uppercase">{{.Params.tagline}}</h6>
+  <h3 class="font-weight-bold">{{.Title}}</h3>
+  <h6 class="font-weight-bold text-dark text-uppercase">{{.Params.tagline}}</h6>
 </div>
 <div class="container">
-    <p class="">{{.Content}}</p>
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-12">
+      <p class="">{{.Content}}</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-12">
+      <a
+        class="twitter-timeline"
+        href="https://twitter.com/diesmo5?ref_src=twsrc%5Etfw"
+        >Tweets by diesmo5</a
+      >
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </div>
+  </div>
 </div>
 <div class=" container py-5">
-    <h6 class="">{{.Params.author}} | {{.Params.company}}</h6>
-    <h6 class="font-weight-light">{{.Params.contact}}</h6>
+  <h6 class="">{{.Params.author}} | {{.Params.company}}</h6>
+  <h6 class="font-weight-light">{{.Params.contact}}</h6>
 </div>
 
 {{ end }}
