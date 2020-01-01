@@ -10,14 +10,14 @@
 <section class="">
   {{ range .Pages }}
   <a href="{{.URL}}" class="text-decoration-none hidden-sm-down">
-    <div class="row" style="background-image: url('{{.Params.img}}'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; min-height: 50vh;">
+    <div class="row parallax" style="background-image: url('{{.Params.img}}');">
       <div class="m-auto text-white hover-services">
         <h1 class="">{{.Params.header}}</h1>
       </div>
     </div>
   </a>
   <a href="{{.URL}}" class="text-decoration-none hidden-sm-up">
-    <div class="row" style="background-image: url('{{.Params.img}}'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh;">
+    <div class="row parallax" style="background-image: url('{{.Params.img}}');">
       <div class="m-auto text-white hover-services">
         <h1 class="">{{.Params.header}}</h1>
       </div>

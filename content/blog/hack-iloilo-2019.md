@@ -9,7 +9,7 @@ author: Dwight Diesmo
 authorImg: /img/dwight-diesmo.jpg
 authorTitle: Senior Partner
 
-img: /img/events/hack-iloilo/hack-iloilo-diesmo5-2019-entire-room.png
+img: /img/events/hack-iloilo/hack-iloilo-diesmo5-2019-wordnite.png
 
 color: 217, 0, 65, 0.7
 ---

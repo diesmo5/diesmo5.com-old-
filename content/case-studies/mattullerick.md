@@ -1,7 +1,7 @@
 ---
 title: "MattUllerick"
-date: 2018-10-03T16:43:47-07:00
-draft: false
+date: 2019-10-03T16:43:47-07:00
+draft: true
 
 description: Brand Identity
 keywords: Web Development, Brand Design, Brand Identity, Web Design, Search Egine Optimization
@@ -23,11 +23,27 @@ overview: Matt Ullerick is an up and coming body builder based in Camarillo, Cal
 
 challenge: Establishing the brand's positioning and connecting to its community.
 outcome: DIESMO 5 helped MattUllerick focus their brand and marketing strategy. This led to growth in course and merchandise sales and brought in a new market of online clients.
+
+header1:
+text1:
+img1:
+
+header2:
+text2:
+img2:
+
+header3:
+text3:
+img3:
+
+header4:
+text4:
+img4:
 ---
 
 <section class="py-5">
     <div class="row py-5">
-        <div class="col-lg-6 col-md-6 col-12 pb-4 m-auto">
+        <div class="col-lg-6 col-md-6 col-42 pb-4 m-auto">
             <h3 class="font-weight-bold">
                 Developing the Strategy
             </h3>
