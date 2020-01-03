@@ -1,44 +1,47 @@
-{{ define "main" }} {{ partial "navbar" . }}
+{{ define "main" }}
+<!--  -->
+{{ partial "navbar" . }}
 
-<div class="container py-5">
-  <h1 class="font-weight-bold text-center text-yankees display-1">
-    {{.Title}}
-  </h1>
-  <p class="">{{.Content}}</p>
-</div>
-
-<section class="">
-  {{ range .Pages }}
-  <a href="{{.URL}}" class="text-decoration-none hidden-sm-down">
-    <div class="row parallax" style="background-image: url('{{.Params.img}}');">
-      <div class="m-auto text-white hover-services">
-        <h1 class="">{{.Params.header}}</h1>
-      </div>
-    </div>
-  </a>
-  <a href="{{.URL}}" class="text-decoration-none hidden-sm-up">
-    <div class="row parallax" style="background-image: url('{{.Params.img}}');">
-      <div class="m-auto text-white hover-services">
-        <h1 class="">{{.Params.header}}</h1>
-      </div>
-    </div>
-  </a>
-
+<section id="header" class="py-5">
   <div class="container py-5">
-    <h2 class="text-center">{{.Title}}</h2>
-    <h6 class="text-center text-dark pt-2 pb-3">{{.Description}}</h6>
-    <div class="text-center">
-      <a href="{{.URL}}" class="btn btn-yankees rounded-0 px-5">Learn More</a>
+    <div class="row py-5">
+      <div class="col-lg-4 col-md-12 col-12">
+        <h2 class="font-weight-normal text-rose">What We Do</h2>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12">
+        <h3 class="font-weight-light">
+          We create powerful
+          <a href="/" class="text-rose"><u>strategies</u></a
+          >, unique <a href="/" class="text-rose"><u>identities</u></a
+          >, and intuitive user-centric <a href="/" class="text-rose"><u>designs</u></a
+          > to connect people
+          to brands and organizations.
+        </h3>
+      </div>
     </div>
   </div>
-
-
-  {{end}}
 </section>
 
-<hr class="container">
+<section id="content" class="">
+  {{ range .Pages }}
+  <div class="row bg-{{.Params.color}}">
+    <div class="col-lg-8 col-12 m-auto">
+      <img src="{{.Params.img}}" alt="{{.Params.alt}}" class="w-100" />
+    </div>
+    <div class="col-lg-4 col-12 p-5 text-white m-auto">
+      <h2 class="font-weight-normal">{{.Title}}</h2>
+      <h4 class="font-weight-light py-3">{{.Description}}</h4>
+      <a href="{{.URL}}" class="text-uppercase text-white">
+        <u>
+          learn more about {{.Title}}
+        </u>
+      </a>
+    </div>
+  </div>
+  {{ end }}
+</section>
 
-{{ partial "clients" . }}
+<!-- {{ partial "clients" . }} -->
 
 <div class="container-fluid text-center pb-5">
   <div class="container py-5">
@@ -50,6 +53,5 @@
     >
   </div>
 </div>
-
 
 {{ end }}

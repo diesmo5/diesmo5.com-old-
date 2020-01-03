@@ -4,58 +4,67 @@
   <img src="{{.Params.img}}" alt="{{.Params.Alt}}" class="w-100" />
 </div>
 
-<section class="container">
-  <h1 class="text-dark font-weight-bold text-center pt-5 pb-2">
-    {{.Title}}
-  </h1>
-  <h3 class="text-secondary text-center pb-5">
-    {{.Description}}
-  </h3>
-</section>
-
-<section class="container py-5">
-  <div class="row">
-    <div class="col-lg-9 col-md-9 col-12 py-5">
-      <h1 class="font-weight-normal">{{.Params.headline}}</h1>
-      <h4 class="text-dark font-weight-light pt-4">
-        {{.Params.overview}}
-      </h4>
+<section id="overview" class="py-5">
+  <div class="container py-5">
+    <div class="row py-5">
+      <div class="col-lg-4 col-12">
+        <h3 class="">What We Do</h3>
+      </div>
+      <div class="col-lg-8 col-12">
+        <h1 class="text-rose">{{.Title}}</h1>
+        <h4 class="font-weight-light">{{.Description}}</h4>
+      </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-12 py-5">
-      <h6 class="text-dark">SCOPE OF PROJECT</h6>
-      <h6 class="font-weight-light text-secondary">{{.Params.keywords}}</h6>
-    </div>
+    <hr class="" />
   </div>
 </section>
 
-<hr class="container" />
-
-<section class="container">
-  <p class="">{{.Content}}</p>
-  <section class="py-5">
-    <div class="row py-5">
-      <div class="col-lg-6 col-md-6 col-12 m-auto">
-        <h3 class="font-weight-bold">
-          How can I hire DIESMO 5?
-        </h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-12 m-auto">
-        <h5 class="font-weight-light">
-          We are open and understanding to every client that we come across.
-          What helps us the most is contacting us via email (use the button
-          below) and let us know a little bit about your business as well as the
-          problem you are trying to solve. This gives us context and helps us
-          better prepare for that first meeting allowing us to help you and your
-          business to the best of our ability. As for our rate, we vary based on
-          the scope of the project. This includes features, complexity, size of
-          the website, duration of the project, and the company's status. We
-          generally charge less for non-profit or student organizations.
-        </h5>
-      </div>
+<section id="content" class="container py-5">
+  <div class="row py-5">
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <img src="{{.Params.img1}}" alt="{{.Params.alt1}}" class="w-100" />
     </div>
-  </section>
-
-  <hr />
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <h2 class="">{{.Params.title1}}</h2>
+      <h5 class="font-weight-light py-3">{{.Params.text1}}</h5>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <img src="{{.Params.img2}}" alt="{{.Params.alt2}}" class="w-100" />
+    </div>
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <h2 class="">{{.Params.title2}}</h2>
+      <h5 class="font-weight-light py-3">{{.Params.text2}}</h5>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <img src="{{.Params.img3}}" alt="{{.Params.alt3}}" class="w-100" />
+    </div>
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <h2 class="">{{.Params.title3}}</h2>
+      <h5 class="font-weight-light py-3">{{.Params.text3}}</h5>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <img src="{{.Params.img4}}" alt="{{.Params.alt4}}" class="w-100" />
+    </div>
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <h2 class="">{{.Params.title4}}</h2>
+      <h5 class="font-weight-light py-3">{{.Params.text4}}</h5>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <img src="{{.Params.img5}}" alt="{{.Params.alt5}}" class="w-100" />
+    </div>
+    <div class="col-lg-6 col-12 m-auto p-5">
+      <h2 class="">{{.Params.title5}}</h2>
+      <h5 class="font-weight-light py-3">{{.Params.text5}}</h5>
+    </div>
+  </div>
 </section>
 
 <div class="container-fluid text-center pb-5">
