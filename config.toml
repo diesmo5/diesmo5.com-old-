@@ -1,6 +1,7 @@
 baseURL = "https://diesmo5.com/"
 languageCode = "en-us"
 title = "DIESMO 5"
+copyright = "Copyright 2016-{year} diesmo5 LLC. All rights reserved."
 
 enableRobotsTXT = true
 canonifyURLs = true
