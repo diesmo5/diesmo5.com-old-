@@ -1,0 +1,67 @@
+{{define "main"}}
+<!--  -->
+{{partial "webservicesnav"}}
+
+<section id="header" class="py-5">
+  <div class="container text-center">
+    <h1 class="font-weight-bold">diesmo<i>5</i> Web Hosting</h1>
+    <h4 class="font-weight-light">Web hosting made easy & affordable!</h4>
+  </div>
+</section>
+
+<section id="banner" class="py-5 bg-indigo container-fluid">
+  <div class="container text-center">
+    <h2 class="font-weight-bold text-white">Do you have a domain?</h2>
+    <h5 class="font-weight-light text-white pb-3">
+      You need to already have one to use diesmo5 Web Hosting
+    </h5>
+    <a href="/domains/" class="btn btn-light rounded-0 text-uppercase px-5 py-3"
+      >Get a domain</a
+    >
+  </div>
+</section>
+
+<section id="pricing" class="bg-light py-5">
+  <div class="container py-5">
+    <h2 class="text-center font-weight-bold">Pricing</h2>
+    <div class="row py-4">
+      {{range .Pages.ByDate}}
+      <div class="card border-0 col-lg-4 col-md-4 col-12">
+        <div class="bg-indigo rounded-top">
+          <h4 class="text-white text-center pt-4 pb-2">{{.Title}}</h4>
+        </div>
+        <div class="bg-yankees">
+          <h5 class="font-weight-light text-white text-center pt-4 pb-2">
+            {{.Params.deals}}
+          </h5>
+        </div>
+        <div class="border border-dark rounded-bottom px-2 py-3">
+          <h6 class="">{{.Params.domainDeal}}</h6>
+          <h6 class="">{{.Params.bandwidthDeal}}</h6>
+          <h6 class="">{{.Params.sslDeal}}</h6>
+          <h6 class="">{{.Params.seoDeal}}</h6>
+          <h6 class="text-center text-indigo py-3">
+            At most {{.Params.pricing}}
+          </h6>
+          <div class="text-center">
+            <a href="{{.URL}}" class="btn btn-block btn-yankees">Buy Now!</a>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid text-center pb-5 bg-yankees text-white">
+  <div class="container py-5">
+    <h2 class="font-weight-light">Any Questions?</h2>
+    <a
+      href="/contact/"
+      class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
+      >Contact Us</a
+    >
+  </div>
+</div>
+
+{{end}}
