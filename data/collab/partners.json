@@ -1,27 +1,27 @@
 {
     "NewCo Foundation": {
         "url": "https://newco.foundation",
-        "img": "https://hackiloilo.com/img/sponsors/newco.png",
+        "img": "/img/collaborate/partners/newco.png",
         "alt": ""
     },
     "Central Philippines University Beta Sigma": {
         "url": "",
-        "img": "https://hackiloilo.com/img/sponsors/betasigma.png",
+        "img": "/img/collaborate/partners/betasigma.png",
         "alt": ""
     },
     "Acclaim Computer Center": {
         "url": "",
-        "img": "https://hackiloilo.com/img/sponsors/acclaim.png",
+        "img": "/img/collaborate/partners/acclaim.png",
         "alt": ""
     },
     "SDSU IEEE": {
         "url": "",
-        "img": "https://d2g8igdw686xgo.cloudfront.net/40675956_1563305144622152_r.jpeg",
+        "img": "/img/collaborate/partners/ieee.jpeg",
         "alt": ""
     },
     "Antoys Native Lechon Manok": {
         "url": "",
-        "img": "https://hackiloilo.com/img/sponsors/antoys.png",
+        "img": "/img/collaborate/partners//antoys.png",
         "alt": ""
     }
 }

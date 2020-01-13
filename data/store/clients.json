@@ -1,28 +1,23 @@
 {
     "MattUllerick": {
-        "url": "#",
+        "url": "https://mattullerick.com/shop/",
         "img": "/img/clients/mattullerick-logo.jpg",
         "alt": "Matt Ullerick Fitness Logo by DIESMO 5"
     },
     "Enemies Apparel": {
-        "url": "#",
+        "url": "https://enemy.com/",
         "img": "/img/clients/enemies-logo.jpg",
         "alt": "Enemies Apparel Logo by DIESMO 5"
     },
     "MagsFast": {
-        "url": "#",
+        "url": "https://magsfast.com/",
         "img": "/img/clients/magsfast-logo.jpg",
         "alt": "Magsfast Logo, a client of DIESMO 5"
     },
     "PC Antivirus Reviews": {
-        "url": "#",
+        "url": "https://pcantivirusreviews.com/",
         "img": "/img/clients/pcantivirusreviews-logo.jpg",
         "alt": "PC Antivirus Logo, a client of DIESMO 5"
-    },
-    "Tava Kessler": {
-        "url": "#",
-        "img": "/img/clients/tavakessler-logo.jpg",
-        "alt": "Tava Kessler Logo by DIESMO 5"
     },
     "EduFriend": {
         "url": "#",
@@ -33,5 +28,10 @@
         "url": "#",
         "img": "/img/clients/hope-logo.jpg",
         "alt": "H.O.P.E. Foundation by DIESMO 5"
+    },
+    "Green Bubble International": {
+        "url": "https://greenbubble.org/",
+        "img": "/img/clients/greenbubble.jpg",
+        "alt": ""
     }
 }

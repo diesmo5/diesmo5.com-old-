@@ -1,4 +1,10 @@
 {
+    "0": {
+        "title": "Learn",
+        "description": "Want to connect with experts? We provide consultation services for web, design, business, tech, etc.",
+        "img": "",
+        "alt": ""
+    },
     "1": {
         "title": "Web",
         "description": "Need a website? We'll build one specific to your needs to increase sales, engagements, or aesthetic.",
@@ -8,12 +14,6 @@
     "2": {
         "title": "Identity",
         "description": "Are you trying to build a brand? Our artists will design a brand that speaks to your customers.",
-        "img": "",
-        "alt": ""
-    },
-    "3": {
-        "title": "Learn",
-        "description": "Want to connect with experts? We provide consultation services for web, design, business, tech, etc.",
         "img": "",
         "alt": ""
     }
