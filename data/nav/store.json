@@ -1,10 +1,4 @@
 {
-    "Courses": {
-        "title": "Courses",
-        "img": "/img/store/courses/c-1280X960.jpg",
-        "alt": "",
-        "url": "/courses/"
-    },
     "Products": {
         "title": "Products",
         "img": "/img/store/products/business-cards-1280X960.jpg",
