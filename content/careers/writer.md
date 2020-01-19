@@ -7,7 +7,7 @@ description: Write.
 
 slots: 3
 location: San Diego | Camarillo
-rate: $4/Article
+rate: Must Contact for Info
 qualifications: Good... at writing
 ---
 Writers will currate articles about technology, business, and education.

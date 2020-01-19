@@ -1,6 +1,3 @@
 GBI:
-    title: Global Connect Initiative
-    url: "/global-connect/"
-D5WS:
-    title: D5 Web Services
-    url: /web-services/
+    navTitle: Global Connect Initiative
+    navUrl: "/global-connect/"

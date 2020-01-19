@@ -18,8 +18,8 @@
 
 {{ range $.Site.Data.nav.media }}
 <section
-  class="bg-{{.color}} text-white py-5 hidden-sm-down"
-  style="background-image: url('{{.img}}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;"
+  class="bg-{{.mediaColor}} text-white py-5 hidden-sm-down"
+  style="background-image: url('{{.mediaImg}}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;"
   id="{{.id}}"
 >
   <div class="container py-5">
@@ -29,10 +29,10 @@
         <h6 class="font-weight-light text-small">{{.id}}</h6>
       </div>
       <div class="col-lg-8 col-md-8 col-12 py-5">
-        <h1 class="font-weight-light display-1">{{.title}}</h1>
-        <h1 class="font-weight-light py-4">{{.description}}</h1>
-        <a href="{{.url}}" class="btn btn-lg btn-{{.color}} rounded-0 px-5 py-2"
-          >{{.action}}</a
+        <h1 class="font-weight-light display-1">{{.mediaTitle}}</h1>
+        <h1 class="font-weight-light py-4">{{.mediaDescription}}</h1>
+        <a href="{{.url}}" class="btn btn-lg btn-{{.mediaColor}} rounded-0 px-5 py-2"
+          >{{.mediaAction}}</a
         >
       </div>
     </div>
@@ -40,8 +40,8 @@
   </div>
 </section>
 <section
-  class="bg-{{.color}} text-white py-5 hidden-sm-up"
-  style="background-image: url('{{.img}}'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+  class="bg-{{.mediaColor}} text-white py-5 hidden-sm-up"
+  style="background-image: url('{{.mediaImg}}'); background-size: cover; background-position: center; background-repeat: no-repeat;"
   id="{{.id}}"
 >
   <div class="container py-5">
@@ -51,10 +51,10 @@
         <h6 class="font-weight-light text-small">{{.id}}</h6>
       </div>
       <div class="col-lg-8 col-md-8 col-12 py-5">
-        <h1 class="font-weight-light display-1">{{.title}}</h1>
-        <h1 class="font-weight-light py-4">{{.description}}</h1>
-        <a href="{{.url}}" class="btn btn-lg btn-{{.color}} rounded-0 px-5 py-2"
-          >{{.action}}</a
+        <h1 class="font-weight-light display-1">{{.mediaTitle}}</h1>
+        <h1 class="font-weight-light py-4">{{.mediaDescription}}</h1>
+        <a href="{{.url}}" class="btn btn-lg btn-{{.mediaColor}} rounded-0 px-5 py-2"
+          >{{.mediaAction}}</a
         >
       </div>
     </div>

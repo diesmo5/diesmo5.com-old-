@@ -1,110 +1,110 @@
 <footer class="bg-light pt-3">
   <div class="container">
     <div class="row pb-3">
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">What's new</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{ range $.Site.Data.nav.new}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
-        <h6 class="">Products & Services</h6>
-        <div class="box-body">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Store</h6>
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.store}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
             </li>
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
-        <h6 class="">Work</h6>
-        <div class="box-body">
-          <ul class="list-unstyled">
-            {{range $.Site.Data.nav.work}}
-            <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
-            </li>
-            {{end}}
-          </ul>
-        </div>
-      </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Education</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.education}}
             <li class="list-unstyled">
-              <a href="{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Enterprise</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.enterprise}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Developer</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.developer}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Foundation</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.collaborate}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Media</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.media}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-3 col-md-4 col-12">
+      <div class="p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Locations</h6>
+        <div class="">
+          <ul class="list-unstyled">
+            {{range $.Site.Data.nav.locations}}
+            <li class="list-unstyled">
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+      <div class="p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Company</h6>
-        <div class="box-body">
+        <div class="">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.company}}
             <li class="list-unstyled">
-              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+              <a href="/{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
@@ -113,7 +113,7 @@
     </div>
     <div class="row justify-content-end">
       {{range $.Site.Data.nav.essential}}
-      <a href="{{.url}}" class="text-small text-dark px-1">{{.title}}</a>
+      <a href="/{{.navUrl}}" class="text-small text-dark px-1">{{.navTitle}}</a>
       {{end}}
     </div>
     <div class="row justify-content-end py-1">

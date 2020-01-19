@@ -1,0 +1,11 @@
+{{ define "main" }} {{ partial "navbar" }}
+
+<div class="container">
+  <h1 class="ob-5">{{.Title}}</h1>
+
+  {{ range .Site.Data.sitemap }}
+  <a href="{{.navUrl}}" class="btn btn-yankees rounded-0">{{.navTitle}}</a>
+  {{ end }}
+</div>
+
+{{ end }}

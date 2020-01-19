@@ -9,7 +9,7 @@ slots: 1
 
 location: Camarillo
 
-rate: $5/Project or $250/animation
+rate: Must Contact for Info
 qualifications: Adobe Premier/HitFilm Express/Final Cut Pro X
 
 ---

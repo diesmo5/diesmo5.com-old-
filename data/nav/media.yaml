@@ -1,0 +1,40 @@
+Blog:
+    navTitle: Blog
+    navUrl: blog
+    mediaTitle: Read Our Articles
+    mediaDescription: Technology. Business. Education.
+    mediaImg: /img/media/blog/header-1280X960.jpg
+    mediaAction: Read
+    mediaColor: rose
+Newsletter:
+    navTitle: Newsletter
+    navUrl: newsletter
+    mediaTitle: Join Our Community
+    mediaDescription: Follow our journey. Exclusive content & deals. Weekly live call.
+    mediaImg: /img/media/newsletter/header-1280X960.jpg
+    mediaAction: Subscribe
+    mediaColor: yankees
+Podcast:
+    navTitle: Podcast
+    navUrl: podcast
+    mediaTitle: The Podcast
+    mediaDescription: Listen to Local Business Men & Women. Software Engineers. Educators.
+    mediaImg: /img/media/podcast/header-1280X960.jpg
+    mediaAction: Listen
+    mediaColor: warning
+Youtube:
+    navTitle: diesmo5 TV
+    navUrl: 
+    mediaTitle: The Channel
+    mediaDescription: Learn how to code websites, apps, & games. Learn about voice, virtual reality, unity, machine learning, and big data. Watch the podcasts.
+    mediaImg: /img/media/youtube/header-1280X960.jpg
+    mediaAction: Watch
+    mediaColor: danger
+Linktree:
+    navTitle: Linktree
+    navUrl: linktree
+    mediaTitle: Our Linktree
+    mediaDescription: Follow us on social media platforms such as instagram, twitter, facebook, and linkedin.
+    mediaImg: /img/media/linktree/cover.jpg
+    mediaAction: Follow
+    mediaColor: success

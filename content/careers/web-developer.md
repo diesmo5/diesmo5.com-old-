@@ -6,7 +6,7 @@ draft: false
 description: Code. Build. Deploy.
 slots: 4
 location: San Deigo | Camarillo
-rate: $15/Hr
+rate: Must Contact for Info
 qualifications: Bootstrap 4
 ---
 We design the website, you bring it to life.

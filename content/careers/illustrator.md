@@ -8,7 +8,7 @@ description: Draw. Color. Create.
 slots: 4
 
 location: Camarillo
-rate: $15/Hr
+rate: Must Contact for Info
 qualifications: Adobe Illustrator/Photoshop
 
 ---

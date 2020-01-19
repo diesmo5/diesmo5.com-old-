@@ -1,30 +1,33 @@
 Newsletter:
-    text: Subscribe to our Newsletter
+    text: Newsletter
     link: /newsletter/
 Discord:
-    text: Join our Discord Server
+    text: Discord
     link: https://discord.gg/qhMcWM8
 Blog:
-    text: Read Articles from our Blog
+    text: Blog
     link: /blog/
 Twitter:
-    text: Follow us on Twitter
+    text: Twitter
     link: https://twitter.com/diesmo5
 Instagram:
-    text: Follow us on Instagram
+    text: Instagram
     link: https://www.instagram.com/diesmo5/
 LinkedIn:
-    text: Connect with us on LinkedIn
+    text: LinkedIn
     link: https://www.linkedin.com/company/diesmo5/
 Facebook:
-    text: Follow us on Facebook
+    text: Facebook
     link: https://www.facebook.com/diesmo5/
 YouTube:
-    text: Subscribe to our YouTube Channel
+    text: diesmo5 TV
     link: https://www.youtube.com/channel/UCervm-DT4iirJRDVqziD4UQ?view_as=subscriber
 Podcast:
-    text: Listen to Our Podcast
+    text: Podcast
     link: /podcast/
 Store:
-    text: Visit our Store Page
+    text: Store
     link: /products-services/
+Global Connect:
+    text: Global Connect
+    link: /global-connect/

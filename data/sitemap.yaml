@@ -1,0 +1,104 @@
+0: 
+  navTitle: diesmo5.com
+  navUrl: https://diesmo5.com
+Hackathons:
+    navTitle: Hackathons
+    navUrl: hackathons
+Speaking Engagements:
+    navTitle: Speaking Engagements
+    imgOFF: /img/events/rchs/tedx-2018-diesmo5-dwight-diesmo-speech-1280x960.png
+Workshops:
+    navTitle: Workshops
+    navUrl: workshops
+About:
+    navTitle: About
+    navUrl: about
+Press:
+    navTitle: Press
+    navUrl: press
+Contact:
+    navTitle: Contact
+    navUrl: contact
+Careers:
+    navTitle: Careers
+    navUrl: careers
+Sudocore:
+  navTitle: Sudocore
+Course:
+  navTitle: General Overview
+  navUrl: courses
+C:
+  navTitle: C How to Program
+  navUrl: c-programming
+Python:
+  navTitle: "Python: The Language of AI & ML"
+  navUrl: python-programming
+Java:
+  navTitle: "Java: Write Once, Run Anywhere"  
+  navUrl: java-programming
+Kotlin:
+  navTitle: "Kotlin: Native Android Development"
+  navUrl: kotlin-programming
+Swift:
+  navTitle: "Swift: Native iOS Development"
+  navUrl: swift-programming
+C++:
+  navTitle: "C++: Object-Oriented Programming"
+  navUrl: c++-programming
+R:
+  navTitle: "R: Data Science"
+  navUrl: r-programming
+Z:
+  navTitle: "Data Structures and Algorithms"
+  navUrl: ds-and-algorithms
+D5WS:
+  navTitle: D5WS
+  navUrl:
+Sitemap:
+    navTitle: Sitemap
+    navUrl: sitemap.xml
+Contact:
+    navTitle: Contact
+    navUrl: contact
+Terms & Conditions:
+    navTitle: Terms & Conditions
+    navUrl: policy/terms-conditions
+Privacy Policy:
+    navTitle: Privacy Policy
+    navUrl: policy/privacy-policy
+Return Policy:
+    navTitle: Return Policy
+    navUrl: policy/return-policy
+San Diego:
+  navTitle: San Diego, CA
+  navUrl:
+Camarillo:
+  navTitle: Camarillo, CA
+  navUrl:
+Iloilo:
+  navTitle: Iloilo, Philippines
+  navUrl:
+Blog:
+    navTitle: Blog
+    navUrl: blog
+Newsletter:
+    navTitle: Newsletter
+    navUrl: newsletter
+Podcast:
+    navTitle: Podcast
+    navUrl: podcast
+Youtube:
+    navTitle: diesmo5 TV
+    navUrl: 
+Linktree:
+    navTitle: Linktree
+    navUrl: linktree
+GBI:
+    navTitle: Global Connect Initiative
+    navUrl: "/global-connect/"
+Products:
+    navTitle: Marketing Materials
+    navUrl: products
+Services:
+    navTitle: Services
+    navUrl: services

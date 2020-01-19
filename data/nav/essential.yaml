@@ -1,0 +1,15 @@
+Sitemap:
+    navTitle: Sitemap
+    navUrl: sitemap.xml
+Contact:
+    navTitle: Contact
+    navUrl: contact
+Terms & Conditions:
+    navTitle: Terms & Conditions
+    navUrl: policy/terms-conditions
+Privacy Policy:
+    navTitle: Privacy Policy
+    navUrl: policy/privacy-policy
+Return Policy:
+    navTitle: Return Policy
+    navUrl: policy/return-policy

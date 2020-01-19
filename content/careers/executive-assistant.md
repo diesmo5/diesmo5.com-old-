@@ -8,7 +8,7 @@ description: Schedule Meetings. Prepare Reports. Research.
 slots: 1
 location: San Deigo
 
-rate: $30/Hr
+rate: Must Contact for Info
 qualifications: G Suite
 
 ---
