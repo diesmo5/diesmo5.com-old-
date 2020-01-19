@@ -1,34 +1,34 @@
 {
     "1": {
-        "title": "Services",
-        "description": "Hosting. Domains. Design.",
-        "img": "/img/home/cards/dws-square.svg",
+        "title": "Client Services",
+        "description": "Branding. Strategy. Websites. Work with us to grow your business and build your brand.",
+        "img": "/img/home/cards/services.jpg",
         "alt": "",
         "tagline": "Learn More",
         "url": "/services/"
     },
     "2": {
-        "title": "Courses",
-        "description": "Code. Projects. Mentors.",
-        "img": "/img/home/cards/youtube-square.svg",
+        "title": "Unlock the power of learning",
+        "description": "Code. Projects. Mentors. Learn how to code using our free courses and resources.",
+        "img": "/img/home/cards/courses.jpg",
         "alt": "",
-        "tagline": "Learn More",
+        "tagline": "Start Now",
         "url": "/courses/"
     },
     "3": {
-        "title": "Collaborate",
-        "description": "Workshops. Events.",
-        "img": "/img/home/cards/collaborate-square.svg",
+        "title": "Collaborate w/ diesmo5",
+        "description": "Workshops. Events. Guest Lectures. We love helping students expand their knowledge and gain practical experiences.",
+        "img": "/img/home/cards/foundation.jpg",
         "alt": "",
         "tagline": "Learn More",
         "url": "/collaborate/"
     },
     "4": {
-        "title": "Newsletter",
-        "description": "Take part in our journey.",
-        "img": "/img/home/cards/newsletter-square.svg",
+        "title": "New Sudocore v5",
+        "description": "Expect more. World class performance, with more flexibility, wider range of design, and quicker build speed.",
+        "img": "/img/home/cards/sudocore.jpg",
         "alt": "",
-        "tagline": "Join the Community",
+        "tagline": "Build a Website/App",
         "url": "/newsletter/"
     }
 }

@@ -21,7 +21,7 @@ Podcast:
     mediaDescription: Listen to Local Business Men & Women. Software Engineers. Educators.
     mediaImg: /img/media/podcast/header-1280X960.jpg
     mediaAction: Listen
-    mediaColor: warning
+    mediaColor: amber
 Youtube:
     navTitle: diesmo5 TV
     navUrl: 
@@ -29,7 +29,7 @@ Youtube:
     mediaDescription: Learn how to code websites, apps, & games. Learn about voice, virtual reality, unity, machine learning, and big data. Watch the podcasts.
     mediaImg: /img/media/youtube/header-1280X960.jpg
     mediaAction: Watch
-    mediaColor: danger
+    mediaColor: red
 Linktree:
     navTitle: Linktree
     navUrl: linktree
@@ -37,4 +37,4 @@ Linktree:
     mediaDescription: Follow us on social media platforms such as instagram, twitter, facebook, and linkedin.
     mediaImg: /img/media/linktree/cover.jpg
     mediaAction: Follow
-    mediaColor: success
+    mediaColor: green

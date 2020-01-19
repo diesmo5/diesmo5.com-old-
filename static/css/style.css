@@ -76,6 +76,17 @@ body {
   color: #ffffff;
 }
 
+.btn-outline-yankees {
+  background-color: transparent;
+  color: #1a1c3a;
+  border-color: #1a1c3a;
+}
+.btn-outline-yankees:hover {
+  background-color: #1a1c3a;
+  color: #fff;
+  border-color: #1a1c3a;
+}
+
 .text-yankees {
   color: #1a1c3a;
 }

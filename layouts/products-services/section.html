@@ -12,11 +12,11 @@
     {{ range $.Site.Data.nav.store }}
     <div class="col-12 py-3 m-auto">
       <div class="content">
-        <a href="{{.url}}">
+        <a href="{{.navUrl}}">
           <div class="content-overlay"></div>
-          <img class="content-image w-100" src="{{.img}}" alt="{{.alt}}" />
+          <img class="content-image w-100" src="{{.imgOFF}}" alt="{{.alt}}" />
           <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">{{.title}}</h3>
+            <h3 class="content-title">{{.navTitle}}</h3>
             <!-- <p class="content-text">This is a short description</p> -->
           </div>
         </a>

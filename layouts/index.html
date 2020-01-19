@@ -1,4 +1,5 @@
 {{ define "main" }} {{ partial "navbar" . }}
+
 <div class="">
   <div
     id="HomePageCarousel"
@@ -18,8 +19,8 @@
           >
             <h5 class="font-weight-normal">Welcome to DIESMO 5</h5>
             <h1 class="font-weight-normal py-4">
-              We Help Brands & Businesses Gain a Competitive Advantage in the
-              Connected World.
+              We provide products and services to entrepreneurs, developers, and
+              designers.
             </h1>
           </div>
         </div>
@@ -29,7 +30,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-yankees text-white text-center">
+<div class="container-fluid text-center">
   <div class="container py-5">
     <h1 class="font-weight-bold">We Build Businesses</h1>
     <h4 class="font-weight-light pt-2 pb-4">
@@ -38,20 +39,21 @@
     </h4>
     <a
       href="/case-studies/"
-      class="btn btn-lg btn-rose rounded-0 font-weight-light px-5 py-3"
+      class="btn btn-lg btn-outline-yankees rounded-0 font-weight-light px-5 py-3"
       >SEE OUR WORK</a
     >
+    <hr />
   </div>
 </div>
 
 <div class="container py-5">
   <div class="row">
     {{range $.Site.Data.home.cards}}
-    <div class="card col-lg-3 col-md-3 col-12 border-0 py-4">
-      <a href="{{.url}}" class="text-decoration-none text-dark">
+    <div class="card col-lg-3 col-md-6 col-12 border-0 py-4">
+      <a href="{{.url}}" class="text-decoration-none text-graphite">
         <img src="{{.img}}" class="card-img-top" alt="{{.alt}}" />
-        <h4 class="pt-3">{{.title}}</h4>
-        <text class="h5 font-weight-light">
+        <h5 class="pt-3">{{.title}}</h5>
+        <text class="h6 font-weight-light">
           {{.description}}
         </text>
       </a>
@@ -62,14 +64,44 @@
   </div>
 </div>
 
-<div class="container py-5">
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-12">
-      <h2 class=""></h2>
+<section class="container-fluid bg-light py-2">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 py-3 my-auto">
+        <img src="/img/home/carousel/global-connect.jpg" alt="" class="w-100" />
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 py-3 my-auto">
+        <h2 class="">Global Connect Initiative</h2>
+        <h4 class="font-weight-light">
+          Our effort to engage and connect students and mentors with one
+          another. Our community is built of High School Student, University
+          Student, and Professional developers, designers, and entrepreneurs.
+        </h4>
+        <a href="/global-connect" class="btn btn-yankees rounded-0 p-3 px-5"
+          >Find out more</a
+        >
+      </div>
     </div>
   </div>
-</div>
+</section>
 
+<div class="container py-5">
+  <div class="row">
+    {{range $.Site.Data.home.cards2}}
+    <div class="card col-lg-3 col-md-6 col-12 border-0 py-4">
+      <a href="{{.url}}" class="text-decoration-none text-graphite">
+        <img src="{{.img}}" class="card-img-top" alt="{{.alt}}" />
+        <h5 class="pt-3">{{.title}}</h5>
+        <text class="h6 font-weight-light">
+          {{.description}}
+        </text>
+      </a>
+      <div class="py-2"></div>
+      <a href="{{.url}}" class="">{{.tagline}} ></a>
+    </div>
+    {{end}}
+  </div>
+</div>
 
 <!-- {{ partial "clients" . }}
 
