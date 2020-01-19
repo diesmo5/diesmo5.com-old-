@@ -1,0 +1,680 @@
+{{ define "main" }}
+<!--  -->
+{{ partial "navbar" }}
+
+<div class="container">
+  <section id="header" class="py-5">
+    <div class="">
+      <h1 class="font-weight-bold text-center pb-4">Learn {{.Title}}</h1>
+      <div class="col-8 mx-auto pb-5">
+        <img src="{{.Params.courseImg}}" alt="" class="w-100" />
+      </div>
+      <h2 class="font-weight-bold pt-5">General Overview</h2>
+      <hr />
+      <div class="py-5">
+        <h5 class="font-weight-normal py-2">
+          C has established itself as a powerful general-purpose programming
+          language. It is widely available in all platforms, portable, and fast.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          If you are in college or you are planning to go to college to major in
+          computer engineering, electrical engineering, software engineering, or
+          computer science, C will be the first programming language they will
+          teach you.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          In general, if you are new to programming, C is a great choice to
+          start your journey as a developer.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Below is a comprehensive guide on how to get started in the C
+          programming language and why you should learn it.
+        </h5>
+      </div>
+    </div>
+  </section>
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-12">
+      <div id="navigation" class="py-5">
+        <h2 class="font-weight-bold">Content</h2>
+        <hr />
+        <div class="py-5">
+          <h4 class="font-weight-bold text-rose">Introduction</h4>
+          {{ range $.Site.Data.courses.cprogramming.intro}}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Flow Control</h4>
+          {{ range $.Site.Data.courses.cprogramming.flowcontrol }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Functions</h4>
+          {{ range $.Site.Data.courses.cprogramming.functions }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Arrays</h4>
+          {{ range $.Site.Data.courses.cprogramming.arrays }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Pointers</h4>
+          {{ range $.Site.Data.courses.cprogramming.pointers }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Structs</h4>
+          {{ range $.Site.Data.courses.cprogramming.structs }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Resources</h4>
+          {{ range $.Site.Data.courses.cprogramming.resources }}
+          <a href="/c-programming/{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-9 col-12">
+      <section id="overview" class="py-5 ">
+        <h2 class="font-weight-bold">The Fundamentals</h2>
+        <hr />
+        <div class="py-5">
+          <h5 class="font-weight-normal py-2">
+            Before jumping into C programming, lets take a few minutes to
+            understand its purpose, uses, and application in the real world.
+          </h5>
+          <h5 class="font-weight-normal py-2">
+            C is "general-purpose", used for a wide range od applications
+            ranging from Operating Systeam like Windows or iOS to software used
+            in creating 3D movies.
+          </h5>
+          <h5 class="font-weight-normal py-2">
+            Despite being more than 40 years old, C has maintained its
+            popularity by being highly efficient. C progams written in one
+            system works in another operating system without any change. This
+            meakes Standard C Programs "portable".
+          </h5>
+          <h5 class="font-weight-normal py-2">
+            Understanding C programming will do more that just help you
+            understand how your program works, but will also be enable you to
+            create a mental picture of how a computer works as well. The fact
+            that the C programming language will give you a strong conceptual
+            understanding of programming as a whole makes C one of the best
+            langauages to start learning programming.
+          </h5>
+        </div>
+      </section>
+
+      <section id="qualification" class="py-5">
+        <h2 class="font-weight-bold">Is C programming right for you?</h2>
+        <hr />
+        <div class="py-5">
+          <h5 class="font-weight-normal py-2">
+            If you intend on going to a college or university to major in
+            Electrical Engineering, Computer Engineering, or Computer Science,
+            you will have to learn C. Typically it will be the first language
+            you learn.
+          </h5>
+          <h5 class="font-weight-normal py-2">
+            For the rest of you, C progamming is still good especially if you
+            are still new to the world of programming.
+          </h5>
+        </div>
+      </section>
+
+      <section id="benefits" class="py-5 ">
+        <h2 class="font-weight-bold">Benefits of learning C</h2>
+        <hr />
+        <div class="py-5">
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              01 You will understand the fundamentals of how a computer works
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              If you have even a basic understanding of C, you will be able to
+              visualize how a computer works including memory management and
+              allocation. You will appreciate the flexibility that comes with
+              the C Programming Language as opposed to its Python and Java
+              contemporaries.
+            </h5>
+          </div>
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              02 C is the foundation of programming
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              High-level programming languages like Java, Python, JavaScript
+              etc. can interface with C progamming. You could be collaborating
+              with another person who doesn't know anything about C, both of you
+              will still understand and freely convey your ideas in progamming
+              in a way you will both understand.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Moreover, a lot of popular langauges are based on C and C++ where
+              C++ is considered a superset of C programming with Object Oriented
+              Programming Features.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Langauges like C# and Java are cousins to C and C++ plus the
+              syntax of JavaScript and PHP are very similar. If you know C,
+              learning all the other langauges will come easily to you.
+            </h5>
+            <h5 class="font-weight-normal py-2"></h5>
+          </div>
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              03 Better Understanding of Good Practices and Coding Principles
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Knowing how computer works and manage memory gives you insight on
+              how to write efficient code in other programming languages.
+            </h5>
+          </div>
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              04 Opportunity to Impact Millions of People
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              In today's world, it may be easy for us to overlook C in the
+              context that we live in a world where C programming is not even
+              mentioned in YouTube or on Google as a way for us to develop cool
+              projects.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Need to develop a mobile app? Learn Java for Android or Swift and
+              Objective C for iOd. Need to build a web application? Learn PHP,
+              ASP.net, Ruby, Python, or JavaScript and React/Angualr/Vue. So
+              where does C programming fit in today's coding ecosystem.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              For one, Python is used for making millions or a wide range of
+              applications. C is used for making Python... Therefore, in order
+              to contribute to Python, you need to know C programming which
+              allows you to work on a Python interpreter that impacts millions
+              of Python programmers. Keep in mind that this is just one of the
+              softwares powered by C today and it impacts millions of people.
+              Some other projects include Linux Kernel, Python Interpreter,
+              SQLite Database & more.
+            </h5>
+          </div>
+        </div>
+      </section>
+
+      <section id="disqualifier" class="py-5">
+        <h2 class="font-weight-bold">Don't learn C Programming</h2>
+        <hr />
+        <div class="py-5">
+          <div class="py-2">
+            <h5 class="font-weight-normal py-2">
+              Even if you don't know the C language, you can still make awesome
+              software projects. Apps of today aren't built using C. They're
+              built on JavaScript with React Native, Dart with Flutter, or
+              natively using Swift & Java.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              C takes time to master, so if you are: busy, don't want to invest
+              time & energy, or it doesn't effect you day-to-day today to
+              tomorrow then there is no need to learn C.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Also, if you are still really young or are a complete noob... you
+              can start with another langauge like Python or JavaScript. Keep in
+              mind that C is not the easiest langauge to learn.
+            </h5>
+          </div>
+        </div>
+      </section>
+
+      <section id="benefits" class="py-5">
+        <h2 class="font-weight-bold">Teach Yourself to Code in C</h2>
+        <hr />
+        <div class="py-5">
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              01 Learn C from diesmo<i>5</i>
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              diesmo<i>5</i> offers dozens of tutorials and examples to help you
+              learn C programming from scratch.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              diesmo<i>5</i> has taken the time to design resources for
+              beginners who do not have prior knowledge of C programming or any
+              other programming langauges. Each diesmo<i>5</i> tutorial across
+              all our courses are written in-depth with examples and detailed
+              explanation.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Be part of the diesmo<i>5</i> community. We have built
+              <a href="/global-connect/" target="_blank" class=""
+                >Global Connect</a
+              >
+              specifically to help developers, designers, and entrepreneurs. Our
+              platform has a wide range of mentors from diverse fields of
+              experiences and specialize in different skills. One of them is C.
+              So if you have any questions, need help with progamming, or would
+              like some advice, we highly encourage you to join our community.
+              Besides, all of this is free!
+            </h5>
+          </div>
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              02 Books For C Programming
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              This is very old-school but we understand everyone learns in
+              different ways.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              The book used in most universities is "C How to Program" by Paul
+              Deitel and Harvey Deitel. If you would like to purchase this book,
+              here is a link to a website that sells it:
+              <a
+                href="https://www.chegg.com/textbooks/c-how-to-program-8th-edition-9780133976892-0133976890?c_id=sem&c_id=sem&utm_source=google&utm_medium=cpc&utm_campaign=tb--long_tail-googleshopping_group3&utm_content=PRODUCT_GROUP&gclid=Cj0KCQiA04XxBRD5ARIsAGFygj9kI5WrFDojx9WLydfspMbtJDXnUsRcVqkx_7xnRY3iHoTColOgMwcaAr9yEALw_wcB&gclsrc=aw.ds"
+                target="_blank"
+                class=""
+                >Click Here</a
+              >
+            </h5>
+            <h5 class="font-weight-normal text-small py-2">
+              Note: This textbook provider is not affiliated with us in anyway.
+              We are not responsible if they mess something up.
+            </h5>
+          </div>
+          <div class="py-2">
+            <h5 class="font-weight-bold text-rose pb-4">
+              03 Good Practices When Learning C Progamming
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Looking at example code is nice, but you should run it yourself.
+              diesmo<i>5</i> has dozens of examples that will help you
+              understand C Programming. However, if you aren't hands on while
+              learning then you're not really practicing programming. Try to do
+              it yourself. Visualize it, understand it, code it, modify or
+              revise and then run it again.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Learn to use a debugging tool or a debugger which allows
+              programmers to stop a program at any point and helps to detect and
+              correct errors. This will make your life easier as a programmer.
+              Knowing how to use a debugger is an essentail skill that every
+              programming should have in their arsenal.
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              Understand the purpose and proper application of each method the C
+              progamming language has to offer. Any problem can be solved by a
+              multitude of solutions but it is an invaluable skill to be able to
+              determine which solution is best. In simplest form, you should
+              know when to use "while loops" and when to use "for loops".
+            </h5>
+            <h5 class="font-weight-normal py-2">
+              General good practices when programming: Be consistent with the
+              formatting, this will help in readability; Use one statement per
+              line, this will help you write code others will understand; use
+              proper names when naming variables, instead of using abstract
+              variables like "x" or "a" use "counter" or "power". Your code
+              should speak for itself and not have hundreds of lines of comments
+              just to explain one feature.
+            </h5>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
+  <section id="header" class="py-5">
+    <div class="container">
+      <h1 class="font-weight-bold text-center pb-4">Learn {{.Title}}</h1>
+      <div class="col-8 mx-auto pb-5">
+        <img src="{{.Params.courseImg}}" alt="" class="w-100" />
+      </div>
+      <h2 class="font-weight-bold">General Overview</h2>
+      <hr />
+      <div class="py-5">
+        <h5 class="font-weight-normal py-2">
+          C has established itself as a powerful general-purpose programming
+          language. It is widely available in all platforms, portable, and fast.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          If you are in college or you are planning to go to college to major in
+          computer engineering, electrical engineering, software engineering, or
+          computer science, C will be the first programming language they will
+          teach you.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          In general, if you are new to programming, C is a great choice to
+          start your journey as a developer.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Below is a comprehensive guide on how to get started in the C
+          programming language and why you should learn it.
+        </h5>
+      </div>
+    </div>
+  </section>
+
+  <section id="overview" class="py-5 container">
+    <h2 class="font-weight-bold">The Fundamentals</h2>
+    <hr />
+    <div class="py-5">
+      <h5 class="font-weight-normal py-2">
+        Before jumping into C programming, lets take a few minutes to understand
+        its purpose, uses, and application in the real world.
+      </h5>
+      <h5 class="font-weight-normal py-2">
+        C is "general-purpose", used for a wide range od applications ranging
+        from Operating Systeam like Windows or iOS to software used in creating
+        3D movies.
+      </h5>
+      <h5 class="font-weight-normal py-2">
+        Despite being more than 40 years old, C has maintained its popularity by
+        being highly efficient. C progams written in one system works in another
+        operating system without any change. This meakes Standard C Programs
+        "portable".
+      </h5>
+      <h5 class="font-weight-normal py-2">
+        Understanding C programming will do more that just help you understand
+        how your program works, but will also be enable you to create a mental
+        picture of how a computer works as well. The fact that the C programming
+        language will give you a strong conceptual understanding of programming
+        as a whole makes C one of the best langauages to start learning
+        programming.
+      </h5>
+    </div>
+  </section>
+
+  <section id="qualification" class="py-5 container">
+    <h2 class="font-weight-bold">Is C programming right for you?</h2>
+    <hr />
+    <div class="py-5">
+      <h5 class="font-weight-normal py-2">
+        If you intend on going to a college or university to major in Electrical
+        Engineering, Computer Engineering, or Computer Science, you will have to
+        learn C. Typically it will be the first language you learn.
+      </h5>
+      <h5 class="font-weight-normal py-2">
+        For the rest of you, C progamming is still good especially if you are
+        still new to the world of programming.
+      </h5>
+    </div>
+  </section>
+
+  <section id="benefits" class="py-5 container">
+    <h2 class="font-weight-bold">Benefits of learning C</h2>
+    <hr />
+    <div class="py-5">
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          01 You will understand the fundamentals of how a computer works
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          If you have even a basic understanding of C, you will be able to
+          visualize how a computer works including memory management and
+          allocation. You will appreciate the flexibility that comes with the C
+          Programming Language as opposed to its Python and Java contemporaries.
+        </h5>
+      </div>
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          02 C is the foundation of programming
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          High-level programming languages like Java, Python, JavaScript etc.
+          can interface with C progamming. You could be collaborating with
+          another person who doesn't know anything about C, both of you will
+          still understand and freely convey your ideas in progamming in a way
+          you will both understand.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Moreover, a lot of popular langauges are based on C and C++ where C++
+          is considered a superset of C programming with Object Oriented
+          Programming Features.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Langauges like C# and Java are cousins to C and C++ plus the syntax of
+          JavaScript and PHP are very similar. If you know C, learning all the
+          other langauges will come easily to you.
+        </h5>
+        <h5 class="font-weight-normal py-2"></h5>
+      </div>
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          03 Better Understanding of Good Practices and Coding Principles
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Knowing how computer works and manage memory gives you insight on how
+          to write efficient code in other programming languages.
+        </h5>
+      </div>
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          04 Opportunity to Impact Millions of People
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          In today's world, it may be easy for us to overlook C in the context
+          that we live in a world where C programming is not even mentioned in
+          YouTube or on Google as a way for us to develop cool projects.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Need to develop a mobile app? Learn Java for Android or Swift and
+          Objective C for iOd. Need to build a web application? Learn PHP,
+          ASP.net, Ruby, Python, or JavaScript and React/Angualr/Vue. So where
+          does C programming fit in today's coding ecosystem.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          For one, Python is used for making millions or a wide range of
+          applications. C is used for making Python... Therefore, in order to
+          contribute to Python, you need to know C programming which allows you
+          to work on a Python interpreter that impacts millions of Python
+          programmers. Keep in mind that this is just one of the softwares
+          powered by C today and it impacts millions of people. Some other
+          projects include Linux Kernel, Python Interpreter, SQLite Database &
+          more.
+        </h5>
+      </div>
+    </div>
+  </section>
+
+  <section id="disqualifier" class="py-5 container">
+    <h2 class="font-weight-bold">Don't learn C Programming</h2>
+    <hr />
+    <div class="py-5">
+      <div class="py-2">
+        <h5 class="font-weight-normal py-2">
+          Even if you don't know the C language, you can still make awesome
+          software projects. Apps of today aren't built using C. They're built
+          on JavaScript with React Native, Dart with Flutter, or natively using
+          Swift & Java.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          C takes time to master, so if you are: busy, don't want to invest time
+          & energy, or it doesn't effect you day-to-day today to tomorrow then
+          there is no need to learn C.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Also, if you are still really young or are a complete noob... you can
+          start with another langauge like Python or JavaScript. Keep in mind
+          that C is not the easiest langauge to learn.
+        </h5>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="py-5 container">
+    <h2 class="font-weight-bold">Teach Yourself to Code in C</h2>
+    <hr />
+    <div class="py-5">
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          01 Learn C from diesmo<i>5</i>
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          diesmo<i>5</i> offers dozens of tutorials and examples to help you
+          learn C programming from scratch.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          diesmo<i>5</i> has taken the time to design resources for beginners
+          who do not have prior knowledge of C programming or any other
+          programming langauges. Each diesmo<i>5</i> tutorial across all our
+          courses are written in-depth with examples and detailed explanation.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Be part of the diesmo<i>5</i> community. We have built
+          <a href="/global-connect/" target="_blank" class="">Global Connect</a>
+          specifically to help developers, designers, and entrepreneurs. Our
+          platform has a wide range of mentors from diverse fields of
+          experiences and specialize in different skills. One of them is C. So
+          if you have any questions, need help with progamming, or would like
+          some advice, we highly encourage you to join our community. Besides,
+          all of this is free!
+        </h5>
+      </div>
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          02 Books For C Programming
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          This is very old-school but we understand everyone learns in different
+          ways.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          The book used in most universities is "C How to Program" by Paul
+          Deitel and Harvey Deitel. If you would like to purchase this book,
+          here is a link to a website that sells it:
+          <a
+            href="https://www.chegg.com/textbooks/c-how-to-program-8th-edition-9780133976892-0133976890?c_id=sem&c_id=sem&utm_source=google&utm_medium=cpc&utm_campaign=tb--long_tail-googleshopping_group3&utm_content=PRODUCT_GROUP&gclid=Cj0KCQiA04XxBRD5ARIsAGFygj9kI5WrFDojx9WLydfspMbtJDXnUsRcVqkx_7xnRY3iHoTColOgMwcaAr9yEALw_wcB&gclsrc=aw.ds"
+            target="_blank"
+            class=""
+            >Click Here</a
+          >
+        </h5>
+        <h5 class="font-weight-normal text-small py-2">
+          Note: This textbook provider is not affiliated with us in anyway. We
+          are not responsible if they mess something up.
+        </h5>
+      </div>
+      <div class="py-2">
+        <h5 class="font-weight-bold text-rose pb-4">
+          03 Good Practices When Learning C Progamming
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Looking at example code is nice, but you should run it yourself.
+          diesmo<i>5</i> has dozens of examples that will help you understand C
+          Programming. However, if you aren't hands on while learning then
+          you're not really practicing programming. Try to do it yourself.
+          Visualize it, understand it, code it, modify or revise and then run it
+          again.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Learn to use a debugging tool or a debugger which allows programmers
+          to stop a program at any point and helps to detect and correct errors.
+          This will make your life easier as a programmer. Knowing how to use a
+          debugger is an essentail skill that every programming should have in
+          their arsenal.
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          Understand the purpose and proper application of each method the C
+          progamming language has to offer. Any problem can be solved by a
+          multitude of solutions but it is an invaluable skill to be able to
+          determine which solution is best. In simplest form, you should know
+          when to use "while loops" and when to use "for loops".
+        </h5>
+        <h5 class="font-weight-normal py-2">
+          General good practices when programming: Be consistent with the
+          formatting, this will help in readability; Use one statement per line,
+          this will help you write code others will understand; use proper names
+          when naming variables, instead of using abstract variables like "x" or
+          "a" use "counter" or "power". Your code should speak for itself and
+          not have hundreds of lines of comments just to explain one feature.
+        </h5>
+      </div>
+    </div>
+  </section>
+
+  <section id="navigation" class="container py-5">
+    <h1 class="font-weight-bold">{{.Title}}</h1>
+    <hr />
+    <div class="py-5">
+      <h2 class="font-weight-bold text-rose">Introduction</h2>
+      {{ range $.Site.Data.courses.cprogramming.intro}}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Flow Control</h2>
+      {{ range $.Site.Data.courses.cprogramming.flowcontrol }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Functions</h2>
+      {{ range $.Site.Data.courses.cprogramming.functions }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Arrays</h2>
+      {{ range $.Site.Data.courses.cprogramming.arrays }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Pointers</h2>
+      {{ range $.Site.Data.courses.cprogramming.pointers }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Structs</h2>
+      {{ range $.Site.Data.courses.cprogramming.structs }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+    <div class="pb-5">
+      <h2 class="font-weight-bold text-rose">Resources</h2>
+      {{ range $.Site.Data.courses.cprogramming.resources }}
+      <a href="{{.navUrl}}" class="btn btn-block btn-secondary text-left p-3"
+        >{{.navTitle}}</a
+      >
+      {{ end }}
+    </div>
+  </section>
+</div> -->
+
+{{ end }}

@@ -13,7 +13,7 @@
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Products & Services</h6>
         <div class="box-body">
           <ul class="list-unstyled">
@@ -26,7 +26,7 @@
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Work</h6>
         <div class="box-body">
           <ul class="list-unstyled">
@@ -38,8 +38,44 @@
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
-        <h6 class="">Collaborate</h6>
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Education</h6>
+        <div class="box-body">
+          <ul class="list-unstyled">
+            {{range $.Site.Data.nav.education}}
+            <li class="list-unstyled">
+              <a href="{{.navUrl}}" class="text-small text-dark">{{.navTitle}}</a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Enterprise</h6>
+        <div class="box-body">
+          <ul class="list-unstyled">
+            {{range $.Site.Data.nav.enterprise}}
+            <li class="list-unstyled">
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Developer</h6>
+        <div class="box-body">
+          <ul class="list-unstyled">
+            {{range $.Site.Data.nav.developer}}
+            <li class="list-unstyled">
+              <a href="{{.url}}" class="text-small text-dark">{{.title}}</a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
+        <h6 class="">Foundation</h6>
         <div class="box-body">
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.collaborate}}
@@ -50,7 +86,7 @@
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Media</h6>
         <div class="box-body">
           <ul class="list-unstyled">
@@ -62,7 +98,7 @@
           </ul>
         </div>
       </div>
-      <div class="box p-3 col-lg-2 col-md-4 col-12">
+      <div class="box p-3 col-lg-3 col-md-4 col-12">
         <h6 class="">Company</h6>
         <div class="box-body">
           <ul class="list-unstyled">

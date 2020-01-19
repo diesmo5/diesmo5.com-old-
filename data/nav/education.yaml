@@ -1,0 +1,27 @@
+0:
+  navTitle: General Overview
+  navUrl: courses
+C:
+  navTitle: C How to Program
+  navUrl: c-programming
+Python:
+  navTitle: "Python: The Language of AI & ML"
+  navUrl: python-programming
+Java:
+  navTitle: "Java: Write Once, Run Anywhere"  
+  navUrl: java-programming
+Kotlin:
+  navTitle: "Kotlin: Native Android Development"
+  navUrl: kotlin-programming
+Swift:
+  navTitle: "Swift: Native iOS Development"
+  navUrl: swift-programming
+C++:
+  navTitle: "C++: Object-Oriented Programming"
+  navUrl: c++-programming
+R:
+  navTitle: "R: Data Science"
+  navUrl: r-programming
+Z:
+  navTitle: "Data Structures and Algorithms"
+  navUrl: ds-and-algorithms

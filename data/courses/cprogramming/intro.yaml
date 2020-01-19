@@ -1,0 +1,18 @@
+1:
+  navTitle: Keywords & Identifiers
+  navUrl: keywords-and-identifiers
+2:
+  navTitle: Variables & Constants
+  navUrl: variables-and-constants
+3:
+  navTitle: C Data Types
+  navUrl: c-data-types
+4:
+  navTitle: C Input/Output
+  navUrl: c-input-output
+5:
+  navTitle: C Operators
+  navUrl: c-operators
+6:
+  navTitle: C Basic Examples
+  navUrl: basic-examples

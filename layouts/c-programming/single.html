@@ -1,0 +1,110 @@
+{{ define "main" }} {{ partial "navbar" }}
+
+<section class="container pt-5">
+  <div class="row pt-5">
+    <div class="col-lg-3 col-md-12 my-auto">
+      <a href="" class="text-decration-none text-dark">
+        <div class="row border rounded-pill p-2">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="" alt="" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <text class="h6">Heloo</text>
+            <br />
+            <text class="text-small">Ads by diesmo5</text>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div id="header" class="col-lg-9 col-md-8 col-12 py-5 my-auto">
+      <h1 class="font-weight-bold">{{.Title}}</h1>
+      <hr />
+      <h5 class="font-weight-light">{{.Description}}</h5>
+      <hr class="" />
+    </div>
+  </div>
+
+  <div class="row pb-5">
+    <div class="col-lg-3 col-md-4 col-12 py-5">
+      <div id="navigation" class="">
+        <h2 class="font-weight-bold">Content</h2>
+        <hr />
+        <div class="py-5">
+          <h4 class="font-weight-bold text-rose">Introduction</h4>
+          {{ range $.Site.Data.courses.cprogramming.intro}}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Flow Control</h4>
+          {{ range $.Site.Data.courses.cprogramming.flowcontrol }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Functions</h4>
+          {{ range $.Site.Data.courses.cprogramming.functions }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Arrays</h4>
+          {{ range $.Site.Data.courses.cprogramming.arrays }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Pointers</h4>
+          {{ range $.Site.Data.courses.cprogramming.pointers }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Structs</h4>
+          {{ range $.Site.Data.courses.cprogramming.structs }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+        <div class="pb-5">
+          <h4 class="font-weight-bold text-rose">Resources</h4>
+          {{ range $.Site.Data.courses.cprogramming.resources }}
+          <a
+            href="/c-programming/{{.navUrl}}"
+            class="btn btn-block btn-secondary text-left"
+            >{{.navTitle}}</a
+          >
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div id="content" class="col-lg-9 col-md-8 col-12 py-5">
+      {{.Content}}
+    </div>
+  </div>
+</section>
+
+{{ end }}
