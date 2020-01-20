@@ -32,7 +32,7 @@
         "title": "Web Developer Bootcamp",
         "description": "Learn how to develop dynamic websites like Facebook and Twitter.",
         "type": "Bootcamp",
-        "price": "$300",
+        "price": "",
         "img": "/img/store/courses/polymer-square.jpg",
         "alt": "",
         "url": "https://checkout.square.site/buy/IQRLV565EJ5Z3YYHUQOYZFZG"
@@ -41,7 +41,7 @@
         "title": "Web Design Bootcamp",
         "description": "Learn how to design beautiful websites for blogs, restaurants, startups, or landing pages.",
         "type": "Bootcamp",
-        "price": "$300",
+        "price": "",
         "img": "/img/store/courses/figma-square.jpg",
         "alt": "",
         "url": "https://checkout.square.site/buy/WMBBNG56XARRQLEKM3IZUKEF"
