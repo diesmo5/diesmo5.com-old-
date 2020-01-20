@@ -1,24 +1,24 @@
 {{ define "main" }} {{ partial "navbar" . }}
 
-<div class="container-fluid bg-yankees py-5">
-  <div class="card p-5">
-    <div class="bg-white">
-      <h2 class="font-weight-normal">-- LETTER FROM THE CEO</h2>
-      <h1 class="text-rose font-weight-bold">DIESMO 5 </h1>
-      <p class="text-yankees font-weight-light py-4">
-        {{.Content}}
-      </p>
-      <div class="row py-3">
-        <div class="col-lg-3 col-md-4 col-12">
-          <img src="/img/dwight-diesmo.jpg" alt="" style="border-radius: 50%;" class="w-100" />
-        </div>
-        <div class="col-lg-3 col-md-4 col-12 my-auto">
-          <h3 class="text-dark font-weight-light">Dwight Diesmo</h3>
-          <h3 class="text-dark font-weight-light">CEO</h3>
-        </div>
-      </div>
-    </div>
+<section class="py-5 text-center">
+  <div class="container py-5">
+    <h1 class="font-weight-bold">Manifesto</h1>
+    <h5 class="font-weight-light">
+      <i
+        >"Take the attitude of a student. Never be too big to ask a question.
+        Never know too much to learn something new." - Og Mandino</i
+      >
+    </h5>
+    <h2 class="font-weight-light pt-3">
+      diesmo<i>5</i> empowers students to achieve more.
+    </h2>
+    <h2 class="font-weight-light pt-3">
+      diesmo<i>5</i> provides students with practical experience and knowledge.
+    </h2>
+    <h2 class="font-weight-light pt-3">
+      diesmo<i>5</i> offers students free software and resources.
+    </h2>
   </div>
-</div>
+</section>
 
 {{ end }}

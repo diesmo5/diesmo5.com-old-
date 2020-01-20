@@ -11,20 +11,20 @@
   <div class="row">
     {{ range $.Site.Data.nav.collaborate }}
     <div class="col-lg-6 col-md-6 col-12 py-3 m-auto">
-      <a href="{{.url}}" class="text-decoration-none">
+      <a href="/{{.navUrl}}" class="text-decoration-none">
       <div class="content">
           <div class="content-overlay"></div>
-          <img class="content-image w-100" src="{{.img}}" alt="{{.alt}}" />
+          <img class="content-image w-100" src="{{.imgOFF}}" alt="{{.alt}}" />
           <div class="content-details fadeIn-left">
-            <h3 class="content-title">{{.title}}</h3>
+            <h3 class="content-title">{{.navTitle}}</h3>
             <!-- <p class="content-text">This is a short description</p> -->
           </div>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-12 py-5 pl-lg-5  pl-md-4 m-auto">
-        <h3 class="font-weight-bold text-yankees">{{.title}}</h3>
-        <h6 class="font-weight-light text-dark left pb-4">{{.tagline}}</h6>
-        <a href="{{.url}}" class="btn btn-lg btn-rose rounded-0 px-5">
+        <h3 class="font-weight-bold text-yankees">{{.navTitle}}</h3>
+        <h6 class="font-weight-light text-graphite left pb-4">{{.tagline}}</h6>
+        <a href="/{{.navUrl}}" class="btn btn-lg btn-rose rounded-0 px-5">
           Learn More
         </a>
       </a>

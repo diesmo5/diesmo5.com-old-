@@ -1,12 +1,15 @@
 Hackathons:
-    navTitle: Hackathons
-    navUrl: hackathons
-    imgOFF: /img/collaborate/hackathons/hackathon_venue.jfif
+  navTitle: Hackathons
+  navUrl: hackathons
+  imgOFF: /img/collaborate/hackathons/hackathon_venue.jfif
+  tagline: Code your way to victory! Develop a solution to problems we face in our everyday and showcase your minimum viable product to a panel of judges.
 Speaking Engagements:
-    navTitle: Speaking Engagements
-    navUrl: speaking-engagements
-    imgOFF: /img/events/rchs/tedx-2018-diesmo5-dwight-diesmo-speech-1280x960.png
+  navTitle: Speaking Engagements
+  navUrl: speaking-engagements
+  imgOFF: /img/events/rchs/tedx-2018-diesmo5-dwight-diesmo-speech-1280x960.png
+  tagline: Hire one of our speakers to share their thoughts with your audience. We have speakers who specialize in tech, science, business, & more.
 Workshops:
-    navTitle: Workshops
-    navUrl: workshops
-    imgOFF: /img/collaborate/workshops/circle-1280X960.jpg
+  navTitle: Workshops
+  navUrl: workshops
+  imgOFF: /img/collaborate/workshops/circle-1280X960.jpg
+  tagline: Doing hands on projects is a great way for anyone to learn. Invite one of our mentors to host a workshop for your organization. Our mentors have had years of experience in their industries.
