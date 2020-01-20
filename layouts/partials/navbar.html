@@ -37,7 +37,7 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.store}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
@@ -58,7 +58,7 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.education}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
@@ -79,7 +79,7 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.developer}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
@@ -100,10 +100,10 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.collaborate}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
             {{ range $.Site.Data.nav.new}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
@@ -125,7 +125,7 @@
           >
             <a class="dropdown-item" href="/media">Overview</a>
             {{ range $.Site.Data.nav.media}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
@@ -146,10 +146,10 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.company}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
             {{ range $.Site.Data.nav.essential}}
-            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
         </li>
