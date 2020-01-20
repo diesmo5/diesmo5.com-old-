@@ -1,0 +1,18 @@
+Slide 1:
+  carouselImg: /img/home/carousel/nature.jpg
+  carouselTitle: Committing to keeping Earth green
+  carouselText: diesmo5 will be recycling 1 million lbs of cans, paper, and plastic by 2030.
+  navUrl:
+  toggle: active
+Slide 2:
+  carouselImg: /img/home/carousel/students.jpg
+  carouselTitle: Empowering students with project based learning
+  carouselText: diesmo5 offers unpaid internships to eager and skilled student developers, creatives, and entrepreneur
+  navUrl:
+  toggle:
+Slide 3:
+  carouselImg: /img/home/carousel/newsletter.jpg
+  carouselTitle: Updates straight to your phone
+  carouselText: diesmo5 sends out a monthly newsletter of relevant articles, upcoming events, and job opportunities near you.
+  navUrl:
+  toggle:

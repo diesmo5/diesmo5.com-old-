@@ -431,3 +431,12 @@ a.text-yankees:hover {
   background-size: contain;
   height: 100vh;
 }
+
+.hover-lighten:hover {
+  filter: brightness(109%);
+}
+
+.hover-dropshadow:hover {
+  box-shadow: 0 8px 12px 0 rgb(83, 83, 83);
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-<section class="">
+<section class="container">
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">
       <img src="/img/logo/icon.png" width="70px" alt="diesmo5-logo" />
@@ -15,64 +15,102 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div
-      class="collapse navbar-collapse justify-content-end"
+      class="collapse navbar-collapse"
       id="navbarNavAltMarkup"
     >
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="/">Home</a>
-        <!-- <li class="nav-item dropdown">
+        <!-- <a class="nav-item nav-link" href="/">Home</a> -->
+        <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="/products-services"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Products & Services
+            Store
           </a>
           <div
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.store}}
-            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
-        </li> -->
-        <a class="nav-item nav-link" href="/products-services/"
-          >Store</a
-        >
-        <a class="nav-item nav-link" href="/case-studies/">Work</a>
-        <!-- <a class="nav-item nav-link" href="/collaborate/">Collaborate</a> -->
-        <!-- <a class="nav-item nav-link" href="/media/">Media</a> -->
-        <!-- <a class="nav-item nav-link" href="/about/">Company</a> -->
-        <!-- <li class="nav-item dropdown">
+        </li>
+        <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="/products-services"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Collaborate
+            Courses
+          </a>
+          <div
+            class="dropdown-menu border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.nav.education}}
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="/products-services"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Software
+          </a>
+          <div
+            class="dropdown-menu border-0"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            {{ range $.Site.Data.nav.developer}}
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            {{end}}
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="/products-services"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Foundation
           </a>
           <div
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.collaborate}}
-            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            {{end}}
+            {{ range $.Site.Data.nav.new}}
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
-        </li> -->
-        <!-- <li class="nav-item dropdown">
+        </li>
+        <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="/products-services"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -85,15 +123,16 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
+            <a class="dropdown-item" href="/media">Overview</a>
             {{ range $.Site.Data.nav.media}}
-            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
-        </li> -->
-        <!-- <li class="nav-item dropdown">
+        </li>
+        <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="/products-services"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -107,10 +146,13 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             {{ range $.Site.Data.nav.company}}
-            <a class="dropdown-item" href="{{.url}}">{{.title}}</a>
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
+            {{end}}
+            {{ range $.Site.Data.nav.essential}}
+            <a class="dropdown-item" href="{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
-        </li> -->
+        </li>
       </div>
     </div>
   </nav>

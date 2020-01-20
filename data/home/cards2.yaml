@@ -10,9 +10,15 @@ C:
   img: /img/home/cards/c-programming.jpg
   url:
   tagline: Learn more
-D5WS:
-  title: Save on Web Hosting Services
-  description: Share your website with the world. Save $240. Get hosting services for $60/year.
-  img: /img/home/cards/website.jpg
+Upcoming Events:
+  title: Attend Our Upcoming Events
+  description: Attend one of our hackathons, workshops, conferences, or speaking engagements near your community.
+  img: /img/home/cards/events.jpg
   url:
-  tagline: Learn more
+  tagline: See Event List
+Code Org:
+  title: Join Our Code.org Class
+  description: Join our class so we can keep up with you as you learn, answer questions you might have, and help you progress from one course to the next.
+  img: /img/home/cards/codeorg.jpg
+  url:
+  tagline: See Event List

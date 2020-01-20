@@ -1,26 +1,18 @@
 {
     "1": {
-        "img": "/img/home/carousel/cliff-1280X960.jpg",
-        "alt": "C How To Program Course Promo",
-        "url": "",
+        "img": "/img/home/carousel/creatives.jpg",
         "toggle": "active"
     },
     "2": {
-        "img": "/img/home/carousel/fashion-1280X960.jpg",
-        "alt": "SudoCore Web Framework Promo",
-        "url": "",
+        "img": "/img/home/carousel/team.jpg",
         "toggle": ""
     },
     "3": {
-        "img": "/img/home/carousel/restaurants-1280X960.jpg",
-        "alt": "SudoCore Web Framework Promo",
-        "url": "",
+        "img": "/img/home/carousel/meeting.jpg",
         "toggle": ""
     },
     "4": {
-        "img": "/img/home/carousel/micromouse-1280X960.jpg",
-        "alt": "SudoCore Web Framework Promo",
-        "url": "",
+        "img": "/img/home/carousel/group.jpg",
         "toggle": ""
     }
 }

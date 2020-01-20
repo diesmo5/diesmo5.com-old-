@@ -20,7 +20,7 @@
             <h5 class="font-weight-normal">Welcome to DIESMO 5</h5>
             <h1 class="font-weight-normal py-4">
               We provide products and services to entrepreneurs, developers, and
-              designers.
+              creatives.
             </h1>
           </div>
         </div>
@@ -42,16 +42,20 @@
       class="btn btn-lg btn-outline-yankees rounded-0 font-weight-light px-5 py-3"
       >SEE OUR WORK</a
     >
-    <hr />
   </div>
+  <hr />
 </div>
 
-<div class="container py-5">
+<div class="container-fluid py-5">
   <div class="row">
     {{range $.Site.Data.home.cards}}
-    <div class="card col-lg-3 col-md-6 col-12 border-0 py-4">
+    <div class="col-lg-3 col-md-6 col-12 rounded border-0 py-4">
       <a href="{{.url}}" class="text-decoration-none text-graphite">
-        <img src="{{.img}}" class="card-img-top" alt="{{.alt}}" />
+        <img
+          src="{{.img}}"
+          class="card-img-top hover-dropshadow"
+          alt="{{.alt}}"
+        />
         <h5 class="pt-3">{{.title}}</h5>
         <text class="h6 font-weight-light">
           {{.description}}
@@ -64,19 +68,23 @@
   </div>
 </div>
 
-<section class="container-fluid bg-light py-2">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-12 py-3 my-auto">
-        <img src="/img/home/carousel/global-connect.jpg" alt="" class="w-100" />
+<section class="container-fluid bg-grey-light py-5">
+  <div class="py-5">
+    <div class="row py-5">
+      <div class="col-lg-6 col-12 py-3 my-auto">
+        <img
+          src="/img/home/carousel/global-connect.jpg"
+          alt=""
+          class="hover-dropshadow w-100"
+        />
       </div>
-      <div class="col-lg-6 col-md-6 col-12 py-3 my-auto">
-        <h2 class="">Global Connect Initiative</h2>
-        <h4 class="font-weight-light">
+      <div class="col-lg-6 col-12 py-3 my-auto">
+        <h3 class="">Global Connect Initiative</h3>
+        <h5 class="font-weight-light">
           Our effort to engage and connect students and mentors with one
           another. Our community is built of High School Student, University
           Student, and Professional developers, designers, and entrepreneurs.
-        </h4>
+        </h5>
         <a href="/global-connect" class="btn btn-yankees rounded-0 p-3 px-5"
           >Find out more</a
         >
@@ -85,12 +93,16 @@
   </div>
 </section>
 
-<div class="container py-5">
+<div class="container-fluid py-5">
   <div class="row">
     {{range $.Site.Data.home.cards2}}
-    <div class="card col-lg-3 col-md-6 col-12 border-0 py-4">
+    <div class="col-lg-3 col-md-6 col-12 rounded border-0 py-5">
       <a href="{{.url}}" class="text-decoration-none text-graphite">
-        <img src="{{.img}}" class="card-img-top" alt="{{.alt}}" />
+        <img
+          src="{{.img}}"
+          class="card-img-top hover-dropshadow"
+          alt="{{.alt}}"
+        />
         <h5 class="pt-3">{{.title}}</h5>
         <text class="h6 font-weight-light">
           {{.description}}
@@ -102,6 +114,53 @@
     {{end}}
   </div>
 </div>
+
+<section class="container-fluid p-5">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li
+        data-target="#carouselExampleCaptions"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      {{ range .Site.Data.home.carousel2 }}
+      <div class="carousel-item {{.toggle}}">
+        <a href="{{.navUrl}}" class="">
+          <img src="{{.carouselImg}}" class="d-block w-100" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="bg-graphite p-3">
+              <h5 class="">{{.carouselTitle}}</h5>
+              <h6 class="">{{.carouselText}}</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{end}}
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
 
 <!-- {{ partial "clients" . }}
 
