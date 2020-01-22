@@ -14,10 +14,7 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div
-      class="collapse navbar-collapse"
-      id="navbarNavAltMarkup"
-    >
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <!-- <a class="nav-item nav-link" href="/">Home</a> -->
         <li class="nav-item dropdown">
@@ -36,15 +33,14 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.nav.store}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" href="/products">Marketing Materials</a>
+            <a class="dropdown-item" href="/services">Client Services</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="/products-services"
+            href="/courses"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -57,6 +53,15 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
+          <a class="dropdown-item" href="/courses">General Overview</a>
+          <a class="dropdown-item" href="/c-programming">C How to Program</a>
+          <a class="dropdown-item" href="/python-programming">Python: The Language of AI & ML</a>
+          <a class="dropdown-item" href="/java-programming">Java: Write Once, Run Anywhere</a>
+          <a class="dropdown-item" href="/kotlin-programming">Kotlin: Native Android Development</a>
+          <a class="dropdown-item" href="/swift-programming">Swift: Native iOS Development</a>
+          <a class="dropdown-item" href="/c++-programming">C++: Object-Oriented Programming</a>
+          <a class="dropdown-item" href="/r-programming">R: Data Science</a>
+          <a class="dropdown-item" href="/ds-and-algorithms">Data Structures and Algorithms</a>
             {{ range $.Site.Data.nav.education}}
             <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
@@ -101,8 +106,7 @@
           >
             {{ range $.Site.Data.nav.collaborate}}
             <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
-            {{ range $.Site.Data.nav.new}}
+            {{end}} {{ range $.Site.Data.nav.new}}
             <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
@@ -147,8 +151,7 @@
           >
             {{ range $.Site.Data.nav.company}}
             <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
-            {{ range $.Site.Data.nav.essential}}
+            {{end}} {{ range $.Site.Data.nav.essential}}
             <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
             {{end}}
           </div>
