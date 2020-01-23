@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container py-3">
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">
       <img src="/img/logo/icon.png" width="70px" alt="diesmo5-logo" />
@@ -53,24 +53,33 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-          <a class="dropdown-item" href="/courses">General Overview</a>
-          <a class="dropdown-item" href="/c-programming">C How to Program</a>
-          <a class="dropdown-item" href="/python-programming">Python: The Language of AI & ML</a>
-          <a class="dropdown-item" href="/java-programming">Java: Write Once, Run Anywhere</a>
-          <a class="dropdown-item" href="/kotlin-programming">Kotlin: Native Android Development</a>
-          <a class="dropdown-item" href="/swift-programming">Swift: Native iOS Development</a>
-          <a class="dropdown-item" href="/c++-programming">C++: Object-Oriented Programming</a>
-          <a class="dropdown-item" href="/r-programming">R: Data Science</a>
-          <a class="dropdown-item" href="/ds-and-algorithms">Data Structures and Algorithms</a>
-            {{ range $.Site.Data.nav.education}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" href="/courses">General Overview</a>
+            <a class="dropdown-item" href="/c-programming">C How to Program</a>
+            <a class="dropdown-item" href="/python-programming"
+              >Python: The Language of AI & ML</a
+            >
+            <a class="dropdown-item" href="/java-programming"
+              >Java: Write Once, Run Anywhere</a
+            >
+            <a class="dropdown-item" href="/kotlin-programming"
+              >Kotlin: Native Android Development</a
+            >
+            <a class="dropdown-item" href="/swift-programming"
+              >Swift: Native iOS Development</a
+            >
+            <a class="dropdown-item" href="/c++-programming"
+              >C++: Object-Oriented Programming</a
+            >
+            <a class="dropdown-item" href="/r-programming">R: Data Science</a>
+            <a class="dropdown-item" href="/ds-and-algorithms"
+              >Data Structures and Algorithms</a
+            >
           </div>
         </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="/products-services"
+            href="/software"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -83,15 +92,15 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.nav.developer}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" target="_blank" href="https://sudocore.dev"
+              >Sudocore</a
+            >
           </div>
         </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="/products-services"
+            href="/collaborate"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -104,17 +113,20 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.nav.collaborate}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}} {{ range $.Site.Data.nav.new}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" href="/hackathons">Hackathons</a>
+            <a class="dropdown-item" href="/speaking-engagements"
+              >Speaking Engagements</a
+            >
+            <a class="dropdown-item" href="/workshops">Workshops</a>
+            <a class="dropdown-item" target="_blank" href="/global-connect"
+              >Global Connect Initiative</a
+            >
           </div>
         </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="/products-services"
+            href="/media"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -128,15 +140,17 @@
             aria-labelledby="navbarDropdownMenuLink"
           >
             <a class="dropdown-item" href="/media">Overview</a>
-            {{ range $.Site.Data.nav.media}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" href="/blog">Blog</a>
+            <a class="dropdown-item" href="/linktree">Linktree</a>
+            <a class="dropdown-item" href="/newsletter">Newsletter</a>
+            <a class="dropdown-item" href="/podcast">Podcast</a>
+            <a class="dropdown-item" href="/tv">diesmo5 TV</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="/products-services"
+            href="/about"
             id="navbarDropdownMenuLink"
             role="button"
             data-toggle="dropdown"
@@ -149,11 +163,20 @@
             class="dropdown-menu border-0"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            {{ range $.Site.Data.nav.company}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}} {{ range $.Site.Data.nav.essential}}
-            <a class="dropdown-item" href="/{{.navUrl}}">{{.navTitle}}</a>
-            {{end}}
+            <a class="dropdown-item" href="/about">About</a>
+            <a class="dropdown-item" href="/press">Press</a>
+            <a class="dropdown-item" href="/careers">Careers</a>
+            <a class="dropdown-item" href="/contact">Contact</a>
+            <a class="dropdown-item" href="/policy/privacy-policy"
+              >Privacy Policy</a
+            >
+            <a class="dropdown-item" href="/policy/return-policy"
+              >Return Policy</a
+            >
+            <a class="dropdown-item" href="/policy/terms-conditions"
+              >Terms & Conditions</a
+            >
+            <a class="dropdown-item" href="/sitemap.xml">Sitemap</a>
           </div>
         </li>
       </div>
