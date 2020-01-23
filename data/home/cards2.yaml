@@ -4,11 +4,11 @@ D5WS:
   img: /img/home/cards/website.jpg
   url:
   tagline: Learn more
-C:
-  title: C How to Program
-  description: Learn the C programming language. A good place to start for students.
-  img: /img/home/cards/c-programming.jpg
-  url: /c-programming
+Global Connect:
+  title: Global Connect
+  description: Join our community of developers, entrepreneurs and creatives. Network with mentors and peers. Collaborate on projects. Get help on school projects, personal projects, & more.
+  img: /img/home/cards/global-connect.jpg
+  url: https://globalconnect.diesmo5.com
   tagline: Learn more
 Upcoming Events:
   title: Attend Our Upcoming Events
@@ -16,7 +16,7 @@ Upcoming Events:
   img: /img/home/cards/events.jpg
   url:
   tagline: See Event List
-Code Org:
+SamKast:
   title: The SamKast coming soon!
   description: Listen to industry professionals as they talk about their journey and what it takes to be an engineer, cerative, entrepreneur, etc.
   img: /img/home/cards/podcast.jpg
