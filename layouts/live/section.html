@@ -4,7 +4,9 @@
 
 <section class="py-5">
     <div class="container py-5">
-        
+        {{ range .Pages }}
+            <a href="{{.URL}}" class="btn btn-block btn-grey">{{.Title}}</a>
+        {{ end }}
     </div>
 </section>
 
