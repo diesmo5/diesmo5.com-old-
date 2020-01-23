@@ -3,12 +3,34 @@
 {{ partial "navbar" }}
 
 <section class="py-5">
-    <div class="container py-5">
-        {{ range .Pages }}
-            <a href="{{.URL}}" class="btn btn-block btn-grey">{{.Title}}</a>
-        {{ end }}
-    </div>
+  <div class="container py-5">
+    <h1 class="font-weight-bold">
+      Today's Workshop: A Practical Guide to Becoming a Web Developer
+    </h1>
+    <h5 class="py-3">
+      What to Expect: Today's workshop can be broken down into two parts: a
+      presentation and a hands on project. we will be going over the different
+      tools, langauges, frameworks involved in web development. We will also
+      cover how those tools work and relate to one another. During the
+      presentation, we will discuss the roadmap towards becoming a Front-End Web
+      Developer, Back-End Web Developer, and/or a Full-Stack Developer. For the
+      second half of the workshop, we will go through the process of building a
+      responsive website using modern design frameworks, the same tools used to
+      build your favorite apps/websites like Twitter, Facebook, Instagram.
+    </h5>
+    <h5 class="py-3">
+      Desired Outcomes: Every attendee should leave with a strong understanding
+      of web development and have a road map that they can use to dive deeper
+      into their career path. They should also be going home with their very own
+      website, where they can freely choose to design this website as a
+      portfolio site for themselves, a club they are in, or to showcase
+      something they are passionate about.
+    </h5>
+    <h2 class="py-5">Additional Resources:</h2>
+    <a href="https://code.visualstudio.com/" class="btn btn-block btn-grey text-left p-3">Visual Studio</a>
+    <a href="https://getbootstrap.com/" class="btn btn-block btn-grey text-left p-3">Bootstrap</a>
+    <a href="/live/web-development" class="btn btn-block btn-grey text-left p-3">Learning Guide</a>
+  </div>
 </section>
-
 
 {{ end }}
