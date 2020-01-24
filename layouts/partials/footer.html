@@ -7,7 +7,7 @@
           <ul class="list-unstyled">
             {{ range $.Site.Data.nav.new}}
             <li class="list-unstyled">
-              <a href="/{{.navUrl}}" class="text-small text-graphite">{{.navTitle}}</a>
+              <a href="{{.navUrl}}" target="_blank" class="text-small text-graphite">{{.navTitle}}</a>
             </li>
             {{end}}
           </ul>
@@ -68,9 +68,12 @@
           <ul class="list-unstyled">
             {{range $.Site.Data.nav.collaborate}}
             <li class="list-unstyled">
-              <a href="/{{.navUrl}}" class="text-small text-graphite">{{.navTitle}}</a>
+              <a href="{{.navUrl}}" class="text-small text-graphite">{{.navTitle}}</a>
             </li>
             {{end}}
+            <li class="list-unstyled">
+              <a href="https://globalconnect.diesmo5.com/" class="text-small text-graphite">Global Connect Initiative</a>
+            </li>
           </ul>
         </div>
       </div>
