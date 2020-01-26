@@ -1,18 +1,18 @@
 {
     "1": {
-        "img": "/img/home/carousel/creatives.jpg",
+        "img": "/img/home/carousel/creatives.svg",
         "toggle": "active"
     },
     "2": {
-        "img": "/img/home/carousel/team.jpg",
+        "img": "/img/home/carousel/team.svg",
         "toggle": ""
     },
     "3": {
-        "img": "/img/home/carousel/meeting.jpg",
+        "img": "/img/home/carousel/meeting.svg",
         "toggle": ""
     },
     "4": {
-        "img": "/img/home/carousel/group.jpg",
+        "img": "/img/home/carousel/group.svg",
         "toggle": ""
     }
 }
