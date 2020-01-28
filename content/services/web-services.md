@@ -3,7 +3,8 @@ title: "Web"
 date: 2018-10-03T16:43:47-07:00
 draft: false
 
-description: The modern world is wide, fast-paced, and connected. This can make it very complicated and difficult to navigate. We help bridge the gap between the users and the information they need by building intuitive, user-first interfaces that engage, delight, and communicate clearly on all devices. 
+description: We help bridge the gap between the users and the information they need by building intuitive, user-first interfaces that engage, delight, and communicate clearly on all devices. 
+
 keywords: Websites, Web Development, Web Design, Web Hosting, Web Services, Responsive Web Design, Graphic Web Design, Web Illustrations, Web Consulting Services, Dynamic Website, Static Websites, Dynamic Website Development, Static Website Development, Hugo Website, Hugo, React JS, HTML, CSS, & JS, Bootstrap 4, E-Commerce, E-Commerce Website, Online Store, Online Store Website, Portfolio Website, Software Developper Website, Photographer Website, Cinematographer Website, Actor Website, Startup Website, Landing Page, Event Website, Search Egine Optimization 
 
 img: /img/store/services/website-1280X960.jpg

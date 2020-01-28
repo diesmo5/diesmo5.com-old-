@@ -3,7 +3,7 @@ title: "Strategy"
 date: 2018-10-03T16:43:47-07:00
 draft: false
 
-description: We work with businesses and organizations of all shapes and sizes. From companies that have been in the operating for years to startups that were born yesterday. We help clients communicate their purpose, find a unique voice, understand their customers, and define their goals. 
+description: We help clients communicate their purpose, find a unique voice, understand their customers, and define their goals. 
  
 keywords: Brand Design, Design Strategy, Logo Design, Styleguide, Brand Design Strategy, Responsive Logo Design, App Logo Design, Restaurant Logo Design, Startup Logo Design, Business Logo Design, Promotional Materials, Business Cards, Brochures, FLyers, Social Media Advertisements, Photoshop, Custom Illustrations, Custom Promotional Materials, Custom Business Cards, Custom Startup Logo Designs, Custom Logos, Custom Logo Designs
 
