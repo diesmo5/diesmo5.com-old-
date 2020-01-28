@@ -2,6 +2,8 @@
 title: "Return & Refund Policy"
 date: 2018-10-03T16:43:47-07:00
 draft: false
+
+description: This page is our Return Policy
 ---
 
 Thank you for your participation in DIESMO 5. If you are not entirely satisfied with your purchase, we are here to help. 

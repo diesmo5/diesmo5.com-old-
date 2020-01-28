@@ -3,7 +3,7 @@ title: "Hack Iloilo 2019"
 date: 2019-08-22T16:43:47-07:00
 draft: false
 
-description: A Scucessful Launch to A Long Endeavor
+description: A Scucessful Launch to A Long Endeavor, Hack Iloilo 2019
 
 author: Dwight Diesmo
 authorImg: /img/dwight-diesmo.jpg

@@ -2,6 +2,8 @@
 title: "Privacy Policy"
 date: 2018-10-03T16:43:47-07:00
 draft: false
+
+description: This page is our Privacy Policy
 ---
 
 Thank you for your participation in DIESMO 5. Your privacy is critically important to us.

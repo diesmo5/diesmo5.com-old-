@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "navbar" }}
+
+<div class="container py-5">
+    <h1 class="">diesmo5, Inc. Policies</h1>
+    <div class="py-3">
+        {{ range .Pages }}
+        <a href="{{.URL}}" class="btn btn-block btn-grey">{{.Title}}</a>
+        {{ end }}
+    </div>
+</div>
+
+
+{{ end }}

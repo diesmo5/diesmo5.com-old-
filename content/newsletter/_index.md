@@ -3,7 +3,7 @@ title: "Newsletter"
 date: 2018-10-03T16:43:47-07:00
 draft: false
 
-description: DIESMO 5 offers a bi-weekly newsletter that keeps members up to date with diesmo 5's recent activities and offers exclusive content and deals. 
+description: diesmo5 offers a bi-weekly newsletter that keeps members up to date with diesmo5's recent activities and offers exclusive content and deals. 
 ---
 
 We have a special place in our hearts for our community members. Members get access to an abundance of free content that normal users don't get access to.
