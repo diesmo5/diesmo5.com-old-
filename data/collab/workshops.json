@@ -1,20 +1,26 @@
 {
+    "0IEEE WEB": {
+        "name": "Web Development",
+        "tagline": "IEEE",
+        "date": "2/8/20",
+        "url": "https://l.instagram.com/?u=https%3A%2F%2Fwww.eventbrite.com%2Fo%2Fsdsu-ieee-29251939193&e=ATOBg0n6ZLkUz85SfxQb4j-cHx7UH-vWcXe_6646XbFC_azIL9cfMBvE-xUzBmllSO5jwhWp"
+    },
     "HACK ILOILO 2019": {
         "name": "Bootstrap 4",
         "tagline": "HACK ILOILO",
-        "date": "08/21",
-        "url": "/contact/"
+        "date": "8/21/19",
+        "url": "https://hackiloilo.com"
     },
     "VCOE 2019": {
         "name": "Full-Stack",
         "tagline": "VCOE",
-        "date": "08/21",
+        "date": "7/21/19",
         "url": "/contact/"
     },
     "ISCOF 2019": {
         "name": "Alexa Skills",
         "tagline": "ISCOF",
-        "date": "01/12",
+        "date": "1/12/19",
         "url": "/contact/"
     }
 }
