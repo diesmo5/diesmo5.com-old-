@@ -1,7 +1,7 @@
 ---
 title: "H.O.P.E. Foundation"
 date: 2018-11-03T16:43:47-07:00
-draft: true
+draft: false
 
 description: Brand Identity
 keywords: Web Development, Responsive Web Design, Search Engine Optimization, Brand Design, Brand Identity

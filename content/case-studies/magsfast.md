@@ -1,7 +1,7 @@
 ---
 title: "MagsFast"
 date: 2019-10-03T16:43:47-07:00
-draft: true
+draft: false
 
 description: Web Application
 keywords: Web Development, Brand Design, Brand Identity, Web Design
